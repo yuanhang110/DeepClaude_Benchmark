@@ -20,13 +20,16 @@ DeepSeek R1的思维链推理展示了其深度推理能力，大语言模型甚
 链接：https://aider.chat/2025/01/24/r1-sonnet.html
 
 在aider-benchmark项目中，原始评测的结果如图：
-<img src="public/aider_deepclaude.png" width="300" style="zoom:150%;" >
+
+
+
+<img src="public/aider_deepclaude.png" width="300" style="zoom: 200%;" >
 
 但是实际效果是怎么样呢，再加上有人使用python复现了deepclaude，复现后的代码能不能达到同样的分数，抱着这样的好奇，我花“巨资”，开始进行验证。
 
 先放出aider官方结果的图
 
-<img src="public/aider_result_offical.png" width="300">
+<img src="public/aider_result_offical.png" width="300" style="zoom:200%;" >
 
 然后开始验证，首先是字节火山引擎的deepseek R1的结果，准确率44%，低于aider官方使用deepseek官方api的测试结果，不过以官方api现在总是不稳定的情况，应该分数会更低。官方的R1结果是56.9，percent_cases_well_formed的指标是96.4，和官方的96.9基本一致，符合误差反问，而准确率比官方低了12.9，跌出了一个deepseek v3
 
