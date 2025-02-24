@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/cpp/exercises/practice/dnd-character",
+    "testcase": "dnd-character",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 126.53601932525635,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "fa8835b02e13cc5fa7ad56c3c6d2630b9e063e87",
+            "ac7e36826c7a3e8a20071374e850af26657df5ee"
+        ],
+        [
+            "020ab7ab8f709384ba72a6f395c584f4b0f9b7eb",
+            "c0465739588623ad5c85c358736ce7aef8f421ee"
+        ]
+    ]
+}

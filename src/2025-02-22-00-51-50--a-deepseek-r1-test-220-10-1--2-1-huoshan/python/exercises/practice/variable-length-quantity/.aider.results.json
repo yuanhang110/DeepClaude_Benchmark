@@ -1,0 +1,26 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/python/exercises/practice/variable-length-quantity",
+    "testcase": "variable-length-quantity",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        true
+    ],
+    "cost": 0.0,
+    "duration": 558.3843703269958,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "5bb6a9891eae6303cb8bf5be67091b4a3c850a46",
+            "66f39252b65246ecade0629f6c14849ae33d52fa"
+        ]
+    ]
+}

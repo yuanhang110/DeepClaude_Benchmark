@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/javascript/exercises/practice/wordy",
+    "testcase": "wordy",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 215.4359905719757,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "bfb470011029b0d7cc25fadeb91440b787189089",
+            "af514a7562e1922788d2e12a57f412c2510da5ab"
+        ],
+        [
+            "b02c7c1c8ed12d81a8d2beb39b7018ea939d7cfb",
+            "622efbc0eec541530931c626ab5c8ea6523d9173"
+        ]
+    ]
+}

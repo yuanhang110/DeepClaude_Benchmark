@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/go/exercises/practice/zebra-puzzle",
+    "testcase": "zebra-puzzle",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 270.5649437904358,
+    "test_timeouts": 1,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "2e62ea09b60b7565f6b67113bddc568567b887fd",
+            "9b4de71a96a23d9794bf77aefd929c6bd4c58392"
+        ],
+        [
+            "0760fcb4735103c6f03bd9fbc93d4f468d2f4134",
+            "ade8c3cdcac3366bb6331bea3d882430a62b0d87"
+        ]
+    ]
+}

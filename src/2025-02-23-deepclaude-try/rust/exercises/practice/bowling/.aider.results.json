@@ -1,0 +1,35 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/rust/exercises/practice/bowling",
+    "testcase": "bowling",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 639.6803710460663,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "fbf45ac04b80762b45b7fd8b55aa0d97efb1e5d9",
+            "c2c00ff4c81f1398c6b591a6f57834438aa5f8a5"
+        ],
+        [
+            "cc8e969d617c5cd203ce325fb32a906dba40de71",
+            "2bfacd540d44e9daff36f31d7f46447123027866"
+        ],
+        [
+            "a9bdf5bf545d49332d41b0e69029b542fd18b2db",
+            "3bb12653b6ba882a7ba893b41f3314db75dec0f8"
+        ]
+    ]
+}

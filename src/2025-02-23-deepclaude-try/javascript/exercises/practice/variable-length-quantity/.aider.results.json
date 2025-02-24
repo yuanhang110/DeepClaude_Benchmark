@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/javascript/exercises/practice/variable-length-quantity",
+    "testcase": "variable-length-quantity",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 267.4680185317993,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "28119dcfa21e8e79384161c57236607ccd2292c3",
+            "2fbb6c9dee2d4ae70e7c9be3f4e5359023a43650"
+        ],
+        [
+            "8e74c6855c3ad81d15c463f576304662a5863eb2",
+            "97a756e8b1112d8687d73019ad838e0860256165"
+        ]
+    ]
+}

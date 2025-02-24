@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/javascript/exercises/practice/ocr-numbers",
+    "testcase": "ocr-numbers",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 597.9143891334534,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "407d383f6e50e2bba72dae78f938dfa4ed673a75",
+            "baa4e3ec7519b3c7b25b7e199dfa8da870f44ca2"
+        ],
+        [
+            "e52dfd3440bf78f95a45738db03b1c65ba2d9fce",
+            "721d16df43db4bcadb62c6d156bfddca05db7871"
+        ]
+    ]
+}

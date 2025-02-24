@@ -1,0 +1,37 @@
+{
+  "authors": [
+    "Smarticles101"
+  ],
+  "contributors": [
+    "aadityakulkarni",
+    "FridaTveit",
+    "jmrunkle",
+    "lemoncurry",
+    "mirkoperillo",
+    "msomji",
+    "muzimuzhi",
+    "sjwarner-bp",
+    "SleeplessByte",
+    "sshine",
+    "stkent",
+    "tendaitt",
+    "TimoleonLatinopoulos"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/House.java"
+    ],
+    "test": [
+      "src/test/java/HouseTest.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/House.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "Output the nursery rhyme 'This is the House that Jack Built'.",
+  "source": "British nursery rhyme",
+  "source_url": "https://en.wikipedia.org/wiki/This_Is_The_House_That_Jack_Built"
+}

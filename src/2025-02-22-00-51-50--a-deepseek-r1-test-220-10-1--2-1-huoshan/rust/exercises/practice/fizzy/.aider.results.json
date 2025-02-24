@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/rust/exercises/practice/fizzy",
+    "testcase": "fizzy",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 282.83175897598267,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "150812688d8b4385bbbe000ef42c8e56dee118ed",
+            "23b52841599eba434d5085047b0be55e1cbae4fd"
+        ],
+        [
+            "d68a440257865187af12fd78ffc35f8060bae3c0",
+            "e1f63f9af5c100717b70ab4f7b58266250a9ccc5"
+        ]
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/rust/exercises/practice/accumulate",
+    "testcase": "accumulate",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 47.08466172218323,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "149de37d32b26601a5bbf647864ec634a5189af9",
+            "05259c55c4773586a1e88b8698e8c4c92baa823d"
+        ],
+        [
+            "364460630c9d371186e3fff1d7b193a8934a5c9c",
+            "ef551f3e5902114b332d38d3deb95b7a9d2a457e"
+        ]
+    ]
+}

@@ -1,0 +1,37 @@
+{
+  "blurb": "Write a function that returns the name of an amino acid a particular codon, possibly using shorthand, encodes for.",
+  "authors": [
+    "EduardoBautista"
+  ],
+  "contributors": [
+    "AndrewKvalheim",
+    "ashleygwilliams",
+    "coriolinus",
+    "cwhakes",
+    "EduardoBautista",
+    "efx",
+    "ErikSchierboom",
+    "IanWhitney",
+    "kytrinyx",
+    "lutostag",
+    "mkantor",
+    "nfiles",
+    "petertseng",
+    "rofrol",
+    "stringparser",
+    "xakon",
+    "ZapAnton"
+  ],
+  "files": {
+    "solution": [
+      "src/lib.rs",
+      "Cargo.toml"
+    ],
+    "test": [
+      "tests/nucleotide-codons.rs"
+    ],
+    "example": [
+      ".meta/example.rs"
+    ]
+  }
+}

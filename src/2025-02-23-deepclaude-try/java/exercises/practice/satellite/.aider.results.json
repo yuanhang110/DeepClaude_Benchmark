@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/java/exercises/practice/satellite",
+    "testcase": "satellite",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 312.3120827674866,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "2aebd33efd4cc3afd27c93457a3af89155c3f6d3",
+            "385229626b93c0fb9d060e49fc23c96545908a4d"
+        ],
+        [
+            "6722f5d258b15cf3649cd8a9031b067643c62447",
+            "11fbf189b8e1c761dde7428d8ae6eb6af441269f"
+        ]
+    ]
+}

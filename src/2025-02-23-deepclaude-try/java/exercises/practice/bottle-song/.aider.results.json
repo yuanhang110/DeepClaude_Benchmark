@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/java/exercises/practice/bottle-song",
+    "testcase": "bottle-song",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 325.9826261997223,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "71ee058d77bc0041fa9cc77ebdd2ac1d9ccf8aa9",
+            "74ea48142b742cf86bb59fc42d8d1984b7e8916d"
+        ],
+        [
+            "29b761242470bf8c5d141a8f4db18aa589d08189",
+            "1b50142e8aa5cebdedba6249d9330183e7dd59b4"
+        ]
+    ]
+}

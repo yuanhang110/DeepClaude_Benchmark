@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/javascript/exercises/practice/grade-school",
+    "testcase": "grade-school",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 171.22738027572632,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "f65b07926640e3249826a907c2c2935afc66e35b",
+            "3d336e6511a613182f5da00c183f3b62d0343ea1"
+        ],
+        [
+            "1a7c9acc0331f1d76e7667cc90b9b645cd49768a",
+            "dab08ebbb388117377db5223053e0e03b3d6d669"
+        ]
+    ]
+}

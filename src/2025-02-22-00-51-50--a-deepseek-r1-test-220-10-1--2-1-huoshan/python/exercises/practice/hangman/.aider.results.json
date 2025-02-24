@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/python/exercises/practice/hangman",
+    "testcase": "hangman",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 645.4669344425201,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "5f811e627777a72aa5a4b48cbf6855fa86d72e7d",
+            "1c646f913abdd5cefd2b70bf578184b2a1f32e2f"
+        ],
+        [
+            "f42cdefdd31d36021db62be2688bb1b6f49745a4",
+            "916733224406fd5e7eca2da0e6f2635dd7564ade"
+        ]
+    ]
+}

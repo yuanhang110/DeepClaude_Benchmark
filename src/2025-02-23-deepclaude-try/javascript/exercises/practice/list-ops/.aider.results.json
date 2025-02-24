@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/javascript/exercises/practice/list-ops",
+    "testcase": "list-ops",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 235.14900708198547,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "c372ad34e118cbb37bcbd30a873bb1216dfd5c20",
+            "40e3c19452ee856bff2126f3ee0fde5799ab4d82"
+        ],
+        [
+            "2952a01bf62d6cc666376c5deb4bf9ad0d9f64e4",
+            "ddd10fff1b9c3459cd235564891462e47c6e7980"
+        ]
+    ]
+}

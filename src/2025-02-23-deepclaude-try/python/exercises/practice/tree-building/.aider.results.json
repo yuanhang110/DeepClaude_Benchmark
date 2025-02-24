@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/python/exercises/practice/tree-building",
+    "testcase": "tree-building",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 269.33919525146484,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "7940894a5156b0552d02821433af458e88f4b483",
+            "9f4cb329587751c9c3af72c73fcf868996679388"
+        ],
+        [
+            "954b48de39b0d4473641869e6c6ab18dec3c2ca9",
+            "5fdbc48c2d1bcba055a0afb5cfc552cd36e5f864"
+        ]
+    ]
+}

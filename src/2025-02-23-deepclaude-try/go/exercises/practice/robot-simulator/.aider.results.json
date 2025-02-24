@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/go/exercises/practice/robot-simulator",
+    "testcase": "robot-simulator",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 470.92707681655884,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "7d9f77583bf5a9638e470041c7a36eb50666def6",
+            "36551b462250feed66584771757eedff19cb1ade"
+        ],
+        [
+            "c314469b0d49042805173ca21090d80b15747466",
+            "9b33dfff7c5307cfc38f712804c6f72a8403db16"
+        ]
+    ]
+}

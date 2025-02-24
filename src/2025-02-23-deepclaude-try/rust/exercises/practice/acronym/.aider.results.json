@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/rust/exercises/practice/acronym",
+    "testcase": "acronym",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 178.09451913833618,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "bff5dea2bd88dbd029eccae74137f921af9c878a",
+            "a732a5ba5d73f8cab01527930cef6000f905c868"
+        ],
+        [
+            "5e9720856fea3ea7ad487fbee861a7777243cc10",
+            "4f4003356ab3ab1d9615fd2dc57bfcb1f3722858"
+        ]
+    ]
+}

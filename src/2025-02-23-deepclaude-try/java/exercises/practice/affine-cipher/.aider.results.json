@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/java/exercises/practice/affine-cipher",
+    "testcase": "affine-cipher",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 449.9857482910156,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "cd8438aa0576e35b1cf241a8b54609f03c8bf3f3",
+            "838d2f6d8e932ae84b2a438ffb111ef6d094b535"
+        ],
+        [
+            "14194e7540abd74d4d3a9a0e1f8eb1b79e1a8a9c",
+            "9adeafa3864e2c63b0d59ebe122ae8a2a436cc7d"
+        ]
+    ]
+}

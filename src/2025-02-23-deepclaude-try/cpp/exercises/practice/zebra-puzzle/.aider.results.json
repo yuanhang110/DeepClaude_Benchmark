@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/cpp/exercises/practice/zebra-puzzle",
+    "testcase": "zebra-puzzle",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 145.48198342323303,
+    "test_timeouts": 1,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "8b078b004b8ce5063c061374de923f49e180ba74",
+            "ecf83d21a1a9d9e6dbc13b1776a861c8bd18f248"
+        ],
+        [
+            "4cf33c6377067b2b2ae17cc48da8d0cebf289459",
+            "1c38823211f61f97420a22e0ed46ec9f48683240"
+        ]
+    ]
+}

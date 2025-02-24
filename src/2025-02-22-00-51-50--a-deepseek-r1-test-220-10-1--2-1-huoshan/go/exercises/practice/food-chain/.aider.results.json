@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/go/exercises/practice/food-chain",
+    "testcase": "food-chain",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 997.5270178318024,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "1ae28553ad31b5cf0bd9c403ed4bdbea64beaccd",
+            "2d9364145c2656ecc9d30490c0d6fce760208eec"
+        ],
+        [
+            "03e7cd9a004fc24253726284ac611cd0a5fd3379",
+            "e4a5d905cde7a46a14d9b12bf96b0c9a269fbe3e"
+        ]
+    ]
+}

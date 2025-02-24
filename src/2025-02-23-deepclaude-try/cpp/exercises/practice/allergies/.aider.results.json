@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/cpp/exercises/practice/allergies",
+    "testcase": "allergies",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 85.03730750083923,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "e2aa0aa849de04fa107ba4727977b9c4ad186895",
+            "ea31e61f684d2b247000a2a910374554fb0487af"
+        ],
+        [
+            "acdeabd00d0557ad75d7f75878297ad260da425b",
+            "bf10c32ae3cad2ad8711fa1034b535f08527432c"
+        ]
+    ]
+}

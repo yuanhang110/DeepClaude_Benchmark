@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/javascript/exercises/practice/grep",
+    "testcase": "grep",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 89.41359877586365,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "905dafa9dee9e078ced3720d556b7badf1fcf089",
+            "c25e8053e74fcacbff62e91aef08ad8d4dbc630d"
+        ],
+        [
+            "2962816cf050082c4777b817836f26fd7a307849",
+            "4ab9610a326af47c32cccf5c8fb23d324c2b8070"
+        ]
+    ]
+}

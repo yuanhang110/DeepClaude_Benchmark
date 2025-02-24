@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/java/exercises/practice/sgf-parsing",
+    "testcase": "sgf-parsing",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 417.0187659263611,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "118133c0a62b17f703bbf8d429c95de35d9cfe5f",
+            "a5eb003d88a951e3079403d88941716848c91ca3"
+        ],
+        [
+            "6825d8901b5e2e3cc50de03faa4c104da2752b6b",
+            "4e95369ea09a6b27666f858f4242b0f88fa77c54"
+        ]
+    ]
+}

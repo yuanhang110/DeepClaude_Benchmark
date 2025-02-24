@@ -1,0 +1,51 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/go/exercises/practice/poker",
+    "testcase": "poker",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 391.2364253997803,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 6,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 6,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "b7b5b59ef647c7e9928b23a62c14a5a67203a290",
+            "dd495a416501435b4510123ba14f7923890535af"
+        ],
+        [
+            "48d9f259f95e6fcb3d3a798c797e412041404f1a",
+            "1971d354800f6631942437ac7cc9e792997509d6"
+        ],
+        [
+            "46541c06179c0d4105f96cc3d39e12384dd73d6c",
+            "1971d354800f6631942437ac7cc9e792997509d6"
+        ],
+        [
+            "254c646e1d694afb7fd76bc5b2fbf58efee1abf7",
+            "1971d354800f6631942437ac7cc9e792997509d6"
+        ],
+        [
+            "e6a1fbf9f3f599a6d396c9c17aa14fd7a1b5ebf0",
+            "1971d354800f6631942437ac7cc9e792997509d6"
+        ],
+        [
+            "e744006712703f62cce92ea02624c3f2675eebc0",
+            "87843f593d3d5b39a4f954f9f6e86ba94a267ca2"
+        ],
+        [
+            "f2b1e151285c9de5e33a63ae983c3b807a7ac541",
+            "b1f2bd5804c1a0239937d51ce300dfb1e6450c28"
+        ]
+    ]
+}

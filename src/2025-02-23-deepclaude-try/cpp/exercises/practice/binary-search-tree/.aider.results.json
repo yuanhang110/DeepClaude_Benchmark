@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/cpp/exercises/practice/binary-search-tree",
+    "testcase": "binary-search-tree",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 91.35259008407593,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "e7eab9020bc429aa259df9645125f06e945a3431",
+            "17ba229d0fc306f0f87a87eff560c7f9fba0092c"
+        ],
+        [
+            "38c98adee7e946dbc71418b2f23fa90af35c9ece",
+            "2af77bb4d7d9e4b08d82e36bd66a7b214af56110"
+        ]
+    ]
+}

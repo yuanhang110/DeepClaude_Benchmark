@@ -1,0 +1,30 @@
+{
+  "authors": [
+    "lemoncurry"
+  ],
+  "contributors": [
+    "FridaTveit",
+    "jmrunkle",
+    "msomji",
+    "muzimuzhi",
+    "SleeplessByte",
+    "sshine"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/ZebraPuzzle.java"
+    ],
+    "test": [
+      "src/test/java/ZebraPuzzleTest.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/ZebraPuzzle.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "Solve the zebra puzzle.",
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Zebra_Puzzle"
+}

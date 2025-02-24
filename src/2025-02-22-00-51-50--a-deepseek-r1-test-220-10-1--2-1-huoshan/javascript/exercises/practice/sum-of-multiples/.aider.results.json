@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/javascript/exercises/practice/sum-of-multiples",
+    "testcase": "sum-of-multiples",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 167.5795738697052,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "7023a8e99d25e115d73efc5501bd537f3b73be67",
+            "659e65e5deced5abd619db38e40aa6f7d8ec5d1c"
+        ],
+        [
+            "f573619b0a796f9217ed26c38cbf6a7e13b5da1c",
+            "3ecc5b0e62111630f123b71b2f29b72643c2483c"
+        ]
+    ]
+}

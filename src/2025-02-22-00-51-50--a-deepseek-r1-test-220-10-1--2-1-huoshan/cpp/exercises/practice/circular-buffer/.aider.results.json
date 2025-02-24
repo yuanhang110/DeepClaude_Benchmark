@@ -1,0 +1,55 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/cpp/exercises/practice/circular-buffer",
+    "testcase": "circular-buffer",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 804.9774067401886,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 7,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "2d2da572edd3cd3e5c5ef1b4fbacee225808d657",
+            "a56835548d5cb5d9c372538dc6492976e9fe5d8c"
+        ],
+        [
+            "0439537f016f4735889b8244f144e18592f60058",
+            "6afe88b82853d657f8d5c4b0987aa8e2eb3490a6"
+        ],
+        [
+            "eeb4962e1c96ae0b0bd9bc4c72c66af9efdd3057",
+            "adae6bc52e62e8ca659dfa60cb4e417753afc5f1"
+        ],
+        [
+            "3e2a91893970de2207ff1abcc84457697755425c",
+            "34d1405be331f2a2b475ed89ca1a167db5428902"
+        ],
+        [
+            "d6a9b8f2e9a8b48759eda0d174fa80d53a243c47",
+            "5ef0718e14660e9c42c66a43413bff923bd91a4d"
+        ],
+        [
+            "0dab52ab309602d7444b9b8082072f8fc1ecd3bf",
+            "58bc2390f46a3aaa9b62f1bfbb4c0be1a8332587"
+        ],
+        [
+            "f52ff1376b01b81e131e883daf383d0728be44fe",
+            "62c871b97baadec4b17bdf2e95800f6dae3e6e5c"
+        ],
+        [
+            "16aa0884152baf077e11b0a333518c017f9ed4ad",
+            "7a0bb9a52a10defb03cab39b1cc3177364e0f1e9"
+        ]
+    ]
+}

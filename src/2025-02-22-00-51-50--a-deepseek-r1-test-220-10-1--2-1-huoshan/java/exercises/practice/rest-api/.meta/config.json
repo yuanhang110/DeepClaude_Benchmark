@@ -1,0 +1,30 @@
+{
+  "authors": [
+    "jmrunkle"
+  ],
+  "contributors": [
+    "mirkoperillo",
+    "msomji",
+    "muzimuzhi"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/RestApi.java",
+      "src/main/java/User.java"
+    ],
+    "test": [
+      "src/test/java/RestApiTest.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/RestApi.java",
+      ".meta/src/reference/java/User.java"
+    ],
+    "editor": [
+      "src/main/java/Iou.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "Implement a RESTful API for tracking IOUs."
+}

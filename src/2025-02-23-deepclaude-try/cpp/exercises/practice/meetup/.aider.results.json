@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/cpp/exercises/practice/meetup",
+    "testcase": "meetup",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 433.79237604141235,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "43492b6d41299610a083a4635d1101ec6b6a8ff0",
+            "59287a08de307f589ae4a0f815309f7f44198e62"
+        ],
+        [
+            "834e4ea338814c26d80b035587589560469e3ab6",
+            "b5f0a513aa1d7365de3318ff765347ac1df72a05"
+        ]
+    ]
+}

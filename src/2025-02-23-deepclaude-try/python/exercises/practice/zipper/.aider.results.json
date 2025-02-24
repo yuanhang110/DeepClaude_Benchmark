@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/python/exercises/practice/zipper",
+    "testcase": "zipper",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 284.0788834095001,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "1b0b2bd0403c173ea2824f2613e47a4afcd9cd1f",
+            "7e94c3d64d04e9b60ed5ab6938351ceb41200e7e"
+        ],
+        [
+            "ce041c5c2db2f3da5f6910afe6047cd0ff692107",
+            "20f5f532256ac7d691fa5d17cabbdc4fb19ef8bd"
+        ]
+    ]
+}

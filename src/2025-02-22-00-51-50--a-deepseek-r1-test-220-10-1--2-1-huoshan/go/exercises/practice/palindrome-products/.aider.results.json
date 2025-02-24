@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/go/exercises/practice/palindrome-products",
+    "testcase": "palindrome-products",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 161.2958061695099,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "0b402a93b4f6c5a43ca71dfaa62d80378b6c5af4",
+            "ecb61bb7b522f39362aee6541a10863f3b02c443"
+        ],
+        [
+            "fd83c153b93289dc362a5197114d9677bbd951f1",
+            "6dc0a9eb3344b0db129cb401b23311927ccb5eed"
+        ]
+    ]
+}

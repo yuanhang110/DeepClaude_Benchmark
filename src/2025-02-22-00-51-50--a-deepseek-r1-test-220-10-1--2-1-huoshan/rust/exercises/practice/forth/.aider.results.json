@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/rust/exercises/practice/forth",
+    "testcase": "forth",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 118.32495856285095,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "f10df43fc1f9c7f5848d614a980e05056145ca1c",
+            "1790664fb1fb23d80ad6be53114da8328c2b0d1a"
+        ],
+        [
+            "99f5bb162274ed1d258f510a5b4b451673de4706",
+            "602a19fbf491b5ef451707fe8e9e04839b85315e"
+        ]
+    ]
+}

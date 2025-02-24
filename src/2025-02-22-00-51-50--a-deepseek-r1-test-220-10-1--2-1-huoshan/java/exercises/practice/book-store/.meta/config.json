@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "Twisti"
+  ],
+  "contributors": [
+    "aadityakulkarni",
+    "FridaTveit",
+    "hgvanpariya",
+    "jmrunkle",
+    "kytrinyx",
+    "lemoncurry",
+    "LukBukkit",
+    "mirkoperillo",
+    "msomji",
+    "muzimuzhi",
+    "sjwarner-bp",
+    "SleeplessByte",
+    "Smarticles101",
+    "sshine",
+    "stkent",
+    "vasouv",
+    "Zaldrick"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/BookStore.java"
+    ],
+    "test": [
+      "src/test/java/BookStoreTest.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/BookStore.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "To try and encourage more sales of different books from a popular 5 book series, a bookshop has decided to offer discounts of multiple-book purchases.",
+  "source": "Inspired by the harry potter kata from Cyber-Dojo.",
+  "source_url": "https://cyber-dojo.org"
+}

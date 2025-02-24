@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/java/exercises/practice/pythagorean-triplet",
+    "testcase": "pythagorean-triplet",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 118.87778663635254,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "a17223bc29b9bb95f044557de29dec7b41afb467",
+            "7635cd41eec1f8b2c8b633e807f7a8445df8d7dd"
+        ],
+        [
+            "478faa7c6e1360c351f1e2fa0794354f05ed36c0",
+            "07306472fd396a86f4b139ace14d9950eea5e576"
+        ]
+    ]
+}

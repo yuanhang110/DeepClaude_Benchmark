@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/cpp/exercises/practice/spiral-matrix",
+    "testcase": "spiral-matrix",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 131.2696831226349,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "05c3bf9eba8163cab301309d067d91802f3b47ec",
+            "db5a99e2bcfa44c637eebab59baffda388e331bc"
+        ],
+        [
+            "18492cd88dc3bb33c6693bf25b0a4805e9c1f7b9",
+            "4ae2b48861da61caceea4a1309ad6c46287f83ec"
+        ]
+    ]
+}

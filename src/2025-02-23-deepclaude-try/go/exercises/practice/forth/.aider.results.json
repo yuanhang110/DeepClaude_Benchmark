@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/go/exercises/practice/forth",
+    "testcase": "forth",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 165.49323749542236,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "396ce407c9add200242f0d3fbeb899ff2948237b",
+            "a9e77ebdfd24e5c13916ecbadada450ca07cf7d8"
+        ],
+        [
+            "9fc6d93b29f655d2af1735d276883c1bafff5043",
+            "f551ee6e04ef1098520ec43eef6cc9d1b22d0696"
+        ]
+    ]
+}

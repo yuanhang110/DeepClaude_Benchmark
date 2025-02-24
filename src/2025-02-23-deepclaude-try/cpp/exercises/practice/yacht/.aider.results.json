@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/cpp/exercises/practice/yacht",
+    "testcase": "yacht",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 230.13047432899475,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "89ec8ca879f96309b06dc9bb73677c2a20fc965b",
+            "8f94f95e60410f77023b08d5e4afe7d7f4815c98"
+        ],
+        [
+            "a0b47f42818c6851b2c696f2daccd1503f9c4ffd",
+            "69950e971d6a2298de7bf309aeed4363e8d3792a"
+        ]
+    ]
+}

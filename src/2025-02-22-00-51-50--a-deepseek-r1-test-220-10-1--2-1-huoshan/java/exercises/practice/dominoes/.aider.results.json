@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/java/exercises/practice/dominoes",
+    "testcase": "dominoes",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 300.213586807251,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "47dae6d16ea72dd533840a20226a2b598b998dde",
+            "6825cc347dfbe0716dc41ac7b39c0308d74bb161"
+        ],
+        [
+            "4fc15b4862af9bd5d0f7fa9f43e810e264d540ab",
+            "cfeb35f8f5f21798e9ec9b76a9a1dce22cf31aa1"
+        ]
+    ]
+}

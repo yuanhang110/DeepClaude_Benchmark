@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/python/exercises/practice/list-ops",
+    "testcase": "list-ops",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 356.5779056549072,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "b9da90f6117624b09f9ec85d1a22f957a77976ae",
+            "052938195738281927c65bcc8db11fc29bec1b52"
+        ],
+        [
+            "5af70366f2c2f1bd0b304ec15e963806798f5a1f",
+            "472f4149145569fd8f791373bcf8b9b760058c0d"
+        ]
+    ]
+}

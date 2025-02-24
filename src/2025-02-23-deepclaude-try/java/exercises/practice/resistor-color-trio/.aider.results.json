@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/java/exercises/practice/resistor-color-trio",
+    "testcase": "resistor-color-trio",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 289.63326048851013,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "74043cc7e2a16757498678de1978dc1e58aab6c4",
+            "fcaf6a249739e08cc60300c12fc000f71198e1a7"
+        ],
+        [
+            "2eb7adaef24228ae532c247d0eb75179d43120a3",
+            "9ffebc2fe21ceaa7b7ef29e7d2b64c79b62b5dae"
+        ]
+    ]
+}

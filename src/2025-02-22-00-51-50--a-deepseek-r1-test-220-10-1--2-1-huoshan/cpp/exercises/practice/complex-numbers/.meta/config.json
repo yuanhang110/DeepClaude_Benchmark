@@ -1,0 +1,25 @@
+{
+  "authors": [
+    "chgraef"
+  ],
+  "contributors": [
+    "elyashiv",
+    "patricksjackson"
+  ],
+  "files": {
+    "solution": [
+      "complex_numbers.cpp",
+      "complex_numbers.h"
+    ],
+    "test": [
+      "complex_numbers_test.cpp"
+    ],
+    "example": [
+      ".meta/example.cpp",
+      ".meta/example.h"
+    ]
+  },
+  "blurb": "Implement complex numbers.",
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Complex_number"
+}

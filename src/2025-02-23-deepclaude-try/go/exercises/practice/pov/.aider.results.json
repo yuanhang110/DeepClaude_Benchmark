@@ -1,0 +1,43 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/go/exercises/practice/pov",
+    "testcase": "pov",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 477.8933935165405,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 4,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 4,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "ffeb86856ebafb228f647a35a6aa11c9ff6e16c3",
+            "ea3e7b6424b765c60c040f4191cd2a4038f7e424"
+        ],
+        [
+            "e21898758d050fd0878fdb7b9ec4a27695f87c66",
+            "4bf446d2341906faee78e47f3a73026c8fd603cb"
+        ],
+        [
+            "400ef33073a8e4d319de59f8e9d63e200ab5c2c5",
+            "4bf446d2341906faee78e47f3a73026c8fd603cb"
+        ],
+        [
+            "52bb1dd4e73bf63bf296ccc9b63aa45ac1f6c16c",
+            "4bf446d2341906faee78e47f3a73026c8fd603cb"
+        ],
+        [
+            "1dc732fe81f956c97c6ca78d305a3b87f2836400",
+            "f4eea4cb5ef5e14d8b6c702e90d9e732faca22c3"
+        ]
+    ]
+}

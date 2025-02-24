@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/javascript/exercises/practice/simple-linked-list",
+    "testcase": "simple-linked-list",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 364.1053488254547,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "b1ae7501525f4edda34f755ac6a7934453936806",
+            "d80a7a6f80578e48df8ddc4695a293e63cd676d0"
+        ],
+        [
+            "b6440f678bafc4c6ff7fee30b1dd6eff1a3a01fd",
+            "155abab1ff3dcfab53e734ff7bdaf8939315f370"
+        ]
+    ]
+}

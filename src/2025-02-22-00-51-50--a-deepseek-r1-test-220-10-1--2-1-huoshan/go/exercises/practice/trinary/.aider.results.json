@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/go/exercises/practice/trinary",
+    "testcase": "trinary",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 133.40561318397522,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "d7c6aefc1632c665f112506bb244bb43beac82d3",
+            "28b9c954c6f860c1709435432c930572184f22a7"
+        ],
+        [
+            "a1c665fda1666b67f17fa5c13dc60ba9fe6cbd20",
+            "7e36bca6fcfafa87daa4a45911884a1c20b65b23"
+        ]
+    ]
+}

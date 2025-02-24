@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/cpp/exercises/practice/parallel-letter-frequency",
+    "testcase": "parallel-letter-frequency",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 136.68182921409607,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "6f735e7f032b1d9bb6f04363effee4ea680fce8d",
+            "5fd23557549bc7dd301a8bf0480c53d336e566f0"
+        ],
+        [
+            "878c356fc63de9df9e7999c1c29398643725c767",
+            "ed927a424925ddc14d8fb2020315cb7ae7d5aa64"
+        ]
+    ]
+}

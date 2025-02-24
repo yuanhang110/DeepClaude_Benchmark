@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/rust/exercises/practice/acronym",
+    "testcase": "acronym",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 212.54020714759827,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "510592e1e143045a4da6045b50907bffbf95bf93",
+            "e65196e12e52e3e2eb25ae80a37a54e4acda691f"
+        ],
+        [
+            "d0776b6ea58307a575d2483412a547b5455fd65a",
+            "b743b1e5da5e17f855cd25ef56ca1b2bf1def8c6"
+        ]
+    ]
+}

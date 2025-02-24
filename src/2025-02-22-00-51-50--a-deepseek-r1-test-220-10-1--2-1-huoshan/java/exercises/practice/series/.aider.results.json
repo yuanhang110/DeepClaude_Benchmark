@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/java/exercises/practice/series",
+    "testcase": "series",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 107.04166340827942,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "7a4ac76d9511279d08a4c7c01ef7bb38af5d935c",
+            "1a961ed23d19068a1884de535eff1598c6400673"
+        ],
+        [
+            "929f9b27db4f1659a849f9c16de74ae2572c2950",
+            "a87a8046dab575e7cb8965e944a30b3cba01084b"
+        ]
+    ]
+}

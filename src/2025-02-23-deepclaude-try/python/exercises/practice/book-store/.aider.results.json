@@ -1,0 +1,35 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/python/exercises/practice/book-store",
+    "testcase": "book-store",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 537.0853862762451,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "009fc02fc454706396a617d0c5678e244646a064",
+            "cf6c748ad206ed98979b983195b489f4dfd8ea86"
+        ],
+        [
+            "afb7d08b817f68f0492a40f6aa73cd60a37b940e",
+            "e73b84628657b4e41bc53d2c7b0674a6c2d7b547"
+        ],
+        [
+            "1c5bb95f19e341dd0e869dedcb2342e031ed5521",
+            "d8658b6dbb5e0aeb29408d2b5642bf48c71b4a69"
+        ]
+    ]
+}

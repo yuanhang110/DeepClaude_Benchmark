@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/javascript/exercises/practice/alphametics",
+    "testcase": "alphametics",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 124.56561970710754,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "99fa28543130aa1507214ff23d66c2a99c2fb6dc",
+            "be2f92628a4b5784a92f1b531256195ecf64fbe1"
+        ],
+        [
+            "d7e2869246e3ea2c8d20ab8da18256f520e8d1b3",
+            "9b0a399c98589de98167b198b4c0306fc1491b31"
+        ]
+    ]
+}

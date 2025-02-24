@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/cpp/exercises/practice/all-your-base",
+    "testcase": "all-your-base",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 86.03222227096558,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "5670076fdd8dc9e2b9cb502cfee00958854bcea8",
+            "d5093d2313e9991a87593b8ab3c5fcb3c31df03f"
+        ],
+        [
+            "1006fb9eaf4768824cc0b211bb15df42cfa731e7",
+            "806f230e1c2ffbac0a7fde8ca2be01786340c482"
+        ]
+    ]
+}

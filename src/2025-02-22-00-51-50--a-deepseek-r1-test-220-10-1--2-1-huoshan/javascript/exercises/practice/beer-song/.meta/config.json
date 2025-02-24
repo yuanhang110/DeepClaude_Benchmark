@@ -1,0 +1,37 @@
+{
+  "authors": [
+    "rchavarria"
+  ],
+  "contributors": [
+    "ankorGH",
+    "draalger",
+    "Futuro212",
+    "hayashi-ay",
+    "kytrinyx",
+    "matthewmorgan",
+    "ovidiu141",
+    "ryanplusplus",
+    "SleeplessByte",
+    "tejasbubane"
+  ],
+  "files": {
+    "solution": [
+      "beer-song.js"
+    ],
+    "test": [
+      "beer-song.spec.js"
+    ],
+    "example": [
+      ".meta/proof.ci.js"
+    ]
+  },
+  "blurb": "Produce the lyrics to that beloved classic, that field-trip favorite: 99 Bottles of Beer on the Wall.",
+  "source": "Learn to Program by Chris Pine",
+  "source_url": "https://pine.fm/LearnToProgram/?Chapter=06",
+  "custom": {
+    "version.tests.compatibility": "jest-27",
+    "flag.tests.task-per-describe": false,
+    "flag.tests.may-run-long": false,
+    "flag.tests.includes-optional": false
+  }
+}

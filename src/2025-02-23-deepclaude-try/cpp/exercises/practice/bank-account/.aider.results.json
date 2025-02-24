@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/cpp/exercises/practice/bank-account",
+    "testcase": "bank-account",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 240.90386962890625,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "c03ad883cb3d96d4c16c11e8dd71acdc7856d56e",
+            "a0f963e3515cabdf762a6d099c96320d5e51e696"
+        ],
+        [
+            "dabe4a38104c332e63161d87ed801ac898a69fdd",
+            "e36971bee47529dcac264ccf8efd08c148e11f8b"
+        ]
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/javascript/exercises/practice/beer-song",
+    "testcase": "beer-song",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 137.25580024719238,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "6fcc1134563937a1ba5ab6379f1167ca655ad1bf",
+            "fb3e2120c5d62450ad745f76cdde532e9824cf77"
+        ],
+        [
+            "5d4230b7a57a067c3d7beabc402c03d50ac3056d",
+            "94ad5f3de4220456647913eae9d152ff29320de9"
+        ]
+    ]
+}

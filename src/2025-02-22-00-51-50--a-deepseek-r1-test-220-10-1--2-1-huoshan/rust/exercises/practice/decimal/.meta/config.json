@@ -1,0 +1,35 @@
+{
+  "authors": [
+    "coriolinus"
+  ],
+  "contributors": [
+    "Baelyk",
+    "cwhakes",
+    "efx",
+    "ErikSchierboom",
+    "lutostag",
+    "nfiles",
+    "petertseng",
+    "rofrol",
+    "stringparser",
+    "xakon",
+    "ZapAnton"
+  ],
+  "files": {
+    "solution": [
+      "src/lib.rs",
+      "Cargo.toml"
+    ],
+    "test": [
+      "tests/decimal.rs"
+    ],
+    "example": [
+      ".meta/example.rs"
+    ]
+  },
+  "blurb": "Implement a Decimal type",
+  "source": "Peter Goodspeed-Niklaus",
+  "custom": {
+    "allowed-to-not-compile": "Stub doesn't compile because operations like +, - are not found. However, giving stubs to the traits would reduce the student's learning."
+  }
+}

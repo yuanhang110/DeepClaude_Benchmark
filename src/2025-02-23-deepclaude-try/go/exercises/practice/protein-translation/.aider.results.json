@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/go/exercises/practice/protein-translation",
+    "testcase": "protein-translation",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 269.3588330745697,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "401a707f7bc3d9b0d2ffb9aaad241e05a19564e5",
+            "f64874fa4e6b6648b37532a16efa427c729ae1f0"
+        ],
+        [
+            "bbbddaa36cdc488e1f24d7fff35007129e258e6f",
+            "c1e5c44cec6a922ded4022804333bbad520ae68e"
+        ]
+    ]
+}

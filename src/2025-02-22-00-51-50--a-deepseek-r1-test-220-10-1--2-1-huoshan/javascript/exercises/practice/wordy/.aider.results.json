@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/javascript/exercises/practice/wordy",
+    "testcase": "wordy",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 23982.719783306122,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 2,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "fbbdbd98a17e428b63b2a3d9750df619435e137f",
+            "0649aec594136874e825d39620a6550f782ab741"
+        ],
+        [
+            "ff3a08095167ef4d10d18276aa447ad4e6c996a4",
+            "0ce97f756323494781a96396b657e48d28a62e41"
+        ]
+    ]
+}

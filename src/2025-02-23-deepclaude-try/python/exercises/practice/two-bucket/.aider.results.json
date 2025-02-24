@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/python/exercises/practice/two-bucket",
+    "testcase": "two-bucket",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 728.2386937141418,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "7eab445fa2ed9b2e08311cce983ec6f56a0fa924",
+            "9fcb99b80a269997330249f564c0d6651d411908"
+        ],
+        [
+            "fb24b4ad5526321b512258023dbbc7a77448447b",
+            "09d42418be29bfa2d9e23bb6a091acc840c4cb64"
+        ]
+    ]
+}

@@ -1,0 +1,36 @@
+{
+  "authors": [
+    "Zhiyuan-Amos"
+  ],
+  "contributors": [
+    "aadityakulkarni",
+    "FridaTveit",
+    "jmrunkle",
+    "Kyle-Pu",
+    "lemoncurry",
+    "mirkoperillo",
+    "msomji",
+    "muzimuzhi",
+    "sjwarner-bp",
+    "SleeplessByte",
+    "sshine"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/Alphametics.java"
+    ],
+    "test": [
+      "src/test/java/AlphameticsTest.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/Alphametics.java"
+    ],
+    "editor": [
+      "src/main/java/UnsolvablePuzzleException.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "Given an alphametics puzzle, find the correct solution."
+}

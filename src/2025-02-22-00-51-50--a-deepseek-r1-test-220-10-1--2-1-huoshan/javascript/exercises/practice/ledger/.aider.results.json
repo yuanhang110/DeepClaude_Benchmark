@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/javascript/exercises/practice/ledger",
+    "testcase": "ledger",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 162.7518060207367,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "e64b1d2f987b30d95794b888d44035c1e5b8b265",
+            "a822a0ae1c6c3b368bf2d388ee9f6db510e647ac"
+        ],
+        [
+            "4e3c45573f5ddca256bdcf3bd2c71823faf340ea",
+            "295fb6393de696f0d899bbeda6687ff5ca7a083b"
+        ]
+    ]
+}

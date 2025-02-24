@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/java/exercises/practice/bottle-song",
+    "testcase": "bottle-song",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 193.7529637813568,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "433260d88c1d6fb1eac455dc05586ba6b3d2817a",
+            "8c78bcd51e1615366a3a53fbe5ae03287758e802"
+        ],
+        [
+            "dbab2f8d6f0f4fda0b53d5a00bc3633eeb28a475",
+            "03e98f92f78924e1c3f3a1be443174da4749ed3a"
+        ]
+    ]
+}

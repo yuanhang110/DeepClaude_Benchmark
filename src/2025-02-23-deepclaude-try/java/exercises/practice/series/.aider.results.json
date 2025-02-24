@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/java/exercises/practice/series",
+    "testcase": "series",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 66.91635012626648,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "b217782e9bee9f7b3a17a53c896f944e01fc119e",
+            "2d13f4962867bbfed760ff87a5eec93deebf0774"
+        ],
+        [
+            "6d4577da86d3464db30807c0c2ccf7b2adffbfdb",
+            "a103173cfc5823d41bbe961b6b17f75bb022fcf0"
+        ]
+    ]
+}

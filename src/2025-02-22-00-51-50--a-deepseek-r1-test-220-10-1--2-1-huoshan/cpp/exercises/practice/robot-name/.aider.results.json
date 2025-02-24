@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/cpp/exercises/practice/robot-name",
+    "testcase": "robot-name",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 205.4692029953003,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "09d0f164906afeca21427b6ff761d4411839b6ba",
+            "b0406fe1fb7d5b296d85c250c3d71a76158d002d"
+        ],
+        [
+            "29486cac740792ed73e3c0515b64b9bc4b9da6ea",
+            "9dc089e05967bc6a271ceef4770012676f418449"
+        ]
+    ]
+}

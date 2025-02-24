@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/rust/exercises/practice/grep",
+    "testcase": "grep",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 185.76773929595947,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "3465d48175f0fc2185a9db92e41451bd7973235a",
+            "288067e29d94ca93ed61ef8bbdf63c11edfe9c38"
+        ],
+        [
+            "c3ea012d6fc4c296f0604c5ae7bf6b79058e172a",
+            "592e6c0d56cbc999bd89407b982602e27a7db9b9"
+        ]
+    ]
+}

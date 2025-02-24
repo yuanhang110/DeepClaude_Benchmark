@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/go/exercises/practice/bowling",
+    "testcase": "bowling",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 393.5316650867462,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "ccf1e9ea19227c2b6549cc1afbbffcfa7feb8205",
+            "d546c9f7e05865cb723e2b3107defab0e17af2fb"
+        ],
+        [
+            "a1d9f8c10783d2cdad89074cb58b917762b97d05",
+            "88ac2d3641d47d15f509c5efbe6f6a228846c79e"
+        ]
+    ]
+}

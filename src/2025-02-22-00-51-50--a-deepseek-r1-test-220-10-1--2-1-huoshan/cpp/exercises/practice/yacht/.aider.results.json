@@ -1,0 +1,39 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/cpp/exercises/practice/yacht",
+    "testcase": "yacht",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 493.5276379585266,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 2,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "8f276bd093c95a667747dd34dd60d3cf21df0085",
+            "e389562f851f3c5d5ceca43403b5bf88b98f44f0"
+        ],
+        [
+            "6e96550bac0475dda509040d1909b1360ffeb7e6",
+            "f8eae6d78a8e51dd176691c2e18cf6e297debdfe"
+        ],
+        [
+            "2d7d92e66c6b059c003666cc0a8dc0ad733e9d89",
+            "c9e1c8064712ef900796b6d27ee01ef3dc4baef8"
+        ],
+        [
+            "1974ba6609bca46b298cfc87f32d1b09aca79c33",
+            "1f58af1811efcd32e93ebbdf971405381d527544"
+        ]
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/cpp/exercises/practice/phone-number",
+    "testcase": "phone-number",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 175.80546927452087,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "3a17149e575c70ce9d0f5817d15da6569456dd26",
+            "4d30a65da143f237b8315931ac340c4bdda73e86"
+        ],
+        [
+            "5b4fc8bc864bcc1b2b6b24dfc8cdfc695d1757a8",
+            "5ae041808f2bdfdb940d8f12f1a3c2c7a325efd2"
+        ]
+    ]
+}

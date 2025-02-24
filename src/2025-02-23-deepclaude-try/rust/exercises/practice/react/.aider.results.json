@@ -1,0 +1,47 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/rust/exercises/practice/react",
+    "testcase": "react",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 507.8488771915436,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 2,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 2,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "d6b2b570c34b067612e45e1094ad440f1fb73205",
+            "87a2c3ccf67483f7345d376ddad875fd4971d566"
+        ],
+        [
+            "d11157b356eab0f332f4cc662b225929737d5aaa",
+            "cc50eda06023371ed48a2cb0e6f8f5a6726b2ce2"
+        ],
+        [
+            "4696cf25647a159c690f4084134df7d1484b653f",
+            "6593ac98b31403ecaf6cc80d2ad9383c0dea7e08"
+        ],
+        [
+            "ef18bf538f40656ba7a33d3640ab73c823ab8295",
+            "658fc6940b1a76fca46b6521ae7704a68f0e2574"
+        ],
+        [
+            "3b653ef07864f66fecb9632985ea69ab55beb655",
+            "b02654b82a4d9518c64f54ed180bd145246029e9"
+        ],
+        [
+            "3068699ab4881603a5b9863b94e2268fd6adcc1d",
+            "e6dd40b8481c8f792edc217cb080edc924ce5130"
+        ]
+    ]
+}

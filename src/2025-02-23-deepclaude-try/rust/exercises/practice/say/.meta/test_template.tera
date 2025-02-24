@@ -1,0 +1,12 @@
+use say::*;
+
+{% for test in cases %}
+#[test]
+#[ignore]
+fn {{ test.description | make_ident }}() {
+    let input = {{ test.input.number | fmt_num }};
+    let output = encode(input);
+    let expected = {{ test.expected | json_encode() }};
+    assert_eq!(output, expected);
+}
+{% endfor -%}

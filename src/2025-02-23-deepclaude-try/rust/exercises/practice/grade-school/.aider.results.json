@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/rust/exercises/practice/grade-school",
+    "testcase": "grade-school",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 86.6317458152771,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "314cdf298e5d37fb933a035c2f02b4a48b2d232f",
+            "159340794a5b0f647f3d60cc0faca233adc005dc"
+        ],
+        [
+            "1cd76846480c5191ad8e6eb08cdd9e66b3f43d62",
+            "60c22918339cf0aaf0ac763a68016dfbae4ae26d"
+        ]
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/python/exercises/practice/poker",
+    "testcase": "poker",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 269.7863059043884,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "c3a799c4f36f18a659816f9bc2a330ec1beef68f",
+            "7df7a0c722c96b7f723dc243db2cfb8ea393bc2b"
+        ],
+        [
+            "78922bcb27fe16bff45db82ae2041d8a239fe304",
+            "6c815bb8ea7eceb6cd820c785b11936023495b1d"
+        ]
+    ]
+}

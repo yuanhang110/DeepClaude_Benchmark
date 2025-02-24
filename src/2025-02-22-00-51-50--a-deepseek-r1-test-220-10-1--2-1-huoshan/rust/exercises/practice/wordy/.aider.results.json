@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/rust/exercises/practice/wordy",
+    "testcase": "wordy",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 101.54976749420166,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "9658635849ef283bfd5865735e8521c60ceb05cc",
+            "bb9cf5728519b2c5f5fd7bd21714e4b83639b7c0"
+        ],
+        [
+            "16b3da73a863afb2e4fba4f9fe801f3c3b4f97ec",
+            "ae3c3e6c0849b0841ebe93beb0c910fcdcf7ae4c"
+        ]
+    ]
+}

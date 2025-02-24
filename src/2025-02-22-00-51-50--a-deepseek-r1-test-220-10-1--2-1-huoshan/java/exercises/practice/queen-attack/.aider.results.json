@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/java/exercises/practice/queen-attack",
+    "testcase": "queen-attack",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 75.66294527053833,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "680e55e2c6eecebcb1a6bd62cf07efa1e0b4a49e",
+            "13426d870e00a2cdca749344358e33af48577554"
+        ],
+        [
+            "63363483401e3f87831743a52ed952a006b67601",
+            "3eccddc2c99122f23ef9c11be05afb36bc4ae94a"
+        ]
+    ]
+}

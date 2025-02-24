@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/java/exercises/practice/ocr-numbers",
+    "testcase": "ocr-numbers",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 2437.4432175159454,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 2,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "c738a3e63ef849a94f6afe5be756c86df4471c47",
+            "ea9129a72d1982676111ee9fc8e56f810c985407"
+        ],
+        [
+            "9ee6e3238556fc377979a6bd00003c49e3182a55",
+            "e24559ca231c70002a679c9c860893db039ca986"
+        ]
+    ]
+}

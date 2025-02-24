@@ -1,0 +1,35 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/go/exercises/practice/markdown",
+    "testcase": "markdown",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 484.46615386009216,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 1,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "fb48b1f675c54e74be371e3971cb6230efded823",
+            "5a40f0aacf5dd6cb73ab5f9ef747bd0d80cf73d9"
+        ],
+        [
+            "583f631c9a84df8b6f5b0bbf75950808f3e36011",
+            "bb55df3c645b86054f64403f0e93dec1d78e00fd"
+        ],
+        [
+            "c37d4c4a1a935b8e80c6d08b0088e760b5e36fc1",
+            "337284dc6a668f04eb6fb8eb0acc135b89904983"
+        ]
+    ]
+}

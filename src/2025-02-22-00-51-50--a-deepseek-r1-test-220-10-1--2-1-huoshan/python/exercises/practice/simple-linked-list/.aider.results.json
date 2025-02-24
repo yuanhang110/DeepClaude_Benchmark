@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/python/exercises/practice/simple-linked-list",
+    "testcase": "simple-linked-list",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 387.56766080856323,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "ae123d4dc0a92ecc161ed7cf28f62f8d65c22b06",
+            "4c774a97759127b2d7784f5f1aaa755da3953e1f"
+        ],
+        [
+            "1990e737c0ab9d8112f3260a67788f135a66b79e",
+            "0015ad12fd46267c9042d22699451b5ad8b5ad36"
+        ]
+    ]
+}

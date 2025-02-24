@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/javascript/exercises/practice/connect",
+    "testcase": "connect",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 392.1717143058777,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "09cdfe7dac5be7eca0f04076232c85f2ba56a05f",
+            "62a69d725388156911a74c16ff87a0f12852ac8b"
+        ],
+        [
+            "eb2736d4ec31f118921917b40ee047841030f60e",
+            "7f172c1404d400b4ae668465c0a9e3a37cbf7112"
+        ]
+    ]
+}

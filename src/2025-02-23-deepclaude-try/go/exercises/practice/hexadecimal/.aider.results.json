@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/go/exercises/practice/hexadecimal",
+    "testcase": "hexadecimal",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 223.5325620174408,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "e81d8d29dc9b5677e717a0615af86d30976f0485",
+            "5c89fab68b61bb62eee76d49a1b3a3a976b20fd9"
+        ],
+        [
+            "78caf1f03e88cbb1a713b8c86e48e7649afd7b2b",
+            "36f4f7c4f6f1f0b813765a94dc399cffe6dcbafa"
+        ]
+    ]
+}

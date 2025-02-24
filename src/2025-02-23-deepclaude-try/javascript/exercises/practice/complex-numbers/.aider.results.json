@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/javascript/exercises/practice/complex-numbers",
+    "testcase": "complex-numbers",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 236.71848678588867,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "253c95fc7f5a8eeeccfe9d8d59240170eeb58cb5",
+            "94908e4b31b99e6214afdd4ff78daae000af533b"
+        ],
+        [
+            "899cc85cfc83dcbd76e07129fb72442852522723",
+            "1b53ee31ff52c3c45c629d2a8dbf1a1384063d60"
+        ]
+    ]
+}

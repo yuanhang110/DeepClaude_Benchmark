@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/java/exercises/practice/word-search",
+    "testcase": "word-search",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 189.3389072418213,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "4e7ff90927fe70c8b80e533d16ab7e857975f731",
+            "db2f091353e5cf8e23ce9a240c7f55f641fd2ea4"
+        ],
+        [
+            "2616bff93e8dab4ce2c4075cad5333f5f95676e6",
+            "eb6415ad993376184c287df9102d0856989747f4"
+        ]
+    ]
+}

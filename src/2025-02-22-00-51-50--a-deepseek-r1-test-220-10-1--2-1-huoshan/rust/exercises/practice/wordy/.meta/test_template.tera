@@ -1,0 +1,19 @@
+use wordy::*;
+
+{% for test in cases %}
+#[test]
+#[ignore]
+{% if test.property == "exponentials" -%}
+#[cfg(feature = "exponentials")]
+{% endif -%}
+fn {{ test.description | make_ident }}() {
+    let input = {{ test.input.question | json_encode() }};
+    let output = answer(input);
+    let expected = {% if test.expected is object -%}
+        None
+    {%- else -%}
+        Some({{ test.expected }})
+    {%- endif %};
+    assert_eq!(output, expected);
+}
+{% endfor -%}

@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/java/exercises/practice/bowling",
+    "testcase": "bowling",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 163.62611317634583,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "1a647b6d7b8df9941e9c7cb5872e69e9a5b9d9d8",
+            "cc795edae32a37ce40fbcce2f13aa0246829a9d3"
+        ],
+        [
+            "a999080c918301d4a6f66610ea5c1de3b0a13218",
+            "ce5ba94cda15f349c6ef347ed15db4d6b8dfa637"
+        ]
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/java/exercises/practice/twelve-days",
+    "testcase": "twelve-days",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 315.96984004974365,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "d35102b2149ebfceb4d1bc46bfb05708e98b0780",
+            "a9c48350b454bee69753562e879322eb4fe766ef"
+        ],
+        [
+            "88bc099f41b27517f691420c7583a5a82db2478c",
+            "22776e0811af076bcccc6ea815d2db219bd15873"
+        ]
+    ]
+}

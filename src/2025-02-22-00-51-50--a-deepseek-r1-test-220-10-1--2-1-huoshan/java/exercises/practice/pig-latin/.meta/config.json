@@ -1,0 +1,44 @@
+{
+  "authors": [],
+  "contributors": [
+    "aadityakulkarni",
+    "FridaTveit",
+    "jackattack24",
+    "jmrunkle",
+    "jtigger",
+    "Kyle-Pu",
+    "kytrinyx",
+    "lemoncurry",
+    "LuLechuan",
+    "matthewmorgan",
+    "matthewstyler",
+    "mirkoperillo",
+    "msomji",
+    "muzimuzhi",
+    "robkeim",
+    "sjwarner-bp",
+    "SleeplessByte",
+    "Smarticles101",
+    "sshine",
+    "stkent",
+    "vdemeester",
+    "Zaldrick"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/PigLatinTranslator.java"
+    ],
+    "test": [
+      "src/test/java/PigLatinTranslatorTest.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/PigLatinTranslator.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "Implement a program that translates from English to Pig Latin.",
+  "source": "The Pig Latin exercise at Test First Teaching by Ultrasaurus",
+  "source_url": "https://github.com/ultrasaurus/test-first-teaching/blob/master/learn_ruby/pig_latin/"
+}

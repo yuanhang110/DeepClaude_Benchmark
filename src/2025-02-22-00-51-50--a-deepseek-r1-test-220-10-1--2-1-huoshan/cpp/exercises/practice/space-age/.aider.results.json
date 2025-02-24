@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/cpp/exercises/practice/space-age",
+    "testcase": "space-age",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 68.51731085777283,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "c222b01a9eac1534cad944245a7be1c61003a3a8",
+            "fc9cabe1075fdda1ecb02df9bff1c58afe5595e8"
+        ],
+        [
+            "9dda1a24970c02859cf875e96da9266bd2fd9dd1",
+            "7d21d0002ac53e9821b0bc497d4e1376592de5b8"
+        ]
+    ]
+}

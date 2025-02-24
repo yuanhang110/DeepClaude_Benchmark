@@ -1,0 +1,4 @@
+[package]
+edition = "2021"
+name = "acronym"
+version = "1.7.0"

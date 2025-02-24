@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/python/exercises/practice/react",
+    "testcase": "react",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 267.9144284725189,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "42cb1c839ea952462b2c12d9841620a62747370e",
+            "1145101e73a8e71e860616dfb35771363fd369b5"
+        ],
+        [
+            "87aa6f2f373202f1ae850f1feee7545bc270c4c6",
+            "682df389015a61768289b0836b8c926cd714c908"
+        ]
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/python/exercises/practice/pig-latin",
+    "testcase": "pig-latin",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 551.1489052772522,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "559c6cb0e61d6e601d81e58b845d37c28fe295f6",
+            "958ced1af0f8f8d13d45512ab2cf8b3ee8406e1e"
+        ],
+        [
+            "d88cf7874bf54f4bca35734f87486b327e667e89",
+            "f6ff995d2d95d70d9142acb7a2614325a0e97c35"
+        ]
+    ]
+}

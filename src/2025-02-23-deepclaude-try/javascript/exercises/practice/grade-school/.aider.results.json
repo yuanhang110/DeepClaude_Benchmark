@@ -1,0 +1,35 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/javascript/exercises/practice/grade-school",
+    "testcase": "grade-school",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        true
+    ],
+    "cost": 0.0,
+    "duration": 213.42870378494263,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 1,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 1,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "625a67dfba182ce6d8938e14e09183fd118debd9",
+            "1f215aed3f5ecae3cf09605630138837ec85e9fd"
+        ],
+        [
+            "1480fec1135761cd927540362439e2f0da7979d2",
+            "3aee64386f40308b76228a051761692c8b1f80fd"
+        ],
+        [
+            "2ba50ccf0aa12bade33f004c9c1ab3662ce8412d",
+            "80e50414b1e980908826ba69ab9bfc557c4a244b"
+        ]
+    ]
+}

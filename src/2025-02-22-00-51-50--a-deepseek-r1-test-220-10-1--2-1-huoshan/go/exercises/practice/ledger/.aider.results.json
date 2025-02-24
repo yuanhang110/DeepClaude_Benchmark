@@ -1,0 +1,39 @@
+{
+    "testdir": "/benchmarks/2025-02-22-00-51-50--a-deepseek-r1-test-220-10-1--2-1-xyh-huoshan/go/exercises/practice/ledger",
+    "testcase": "ledger",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 164.01935029029846,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 2,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "5ae88a7dde9c6b8073aee55a4f6dcc753dc0e77a",
+            "ed74b65ff2043830b95f8688a620fe5d6dd1a7f7"
+        ],
+        [
+            "80d206752f8b9a337c8c098b9e24e24d8e383c4e",
+            "cb244d720865628cf0c67d806cfbafda40f16b8f"
+        ],
+        [
+            "b8e11900d7c583f24c2159374893c1807d83fec9",
+            "cb0b8ce2f9382063fb5ac1c8c8f91c387bb549b1"
+        ],
+        [
+            "76a232a15c91f3d8d6827679a39f497388db6f0b",
+            "2c06cbe6765726071b3b7b6f0cb406d026dd57ce"
+        ]
+    ]
+}

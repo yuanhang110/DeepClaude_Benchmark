@@ -1,0 +1,41 @@
+{
+  "authors": [
+    "javaeeeee"
+  ],
+  "contributors": [
+    "aadityakulkarni",
+    "FridaTveit",
+    "hgvanpariya",
+    "jmrunkle",
+    "kytrinyx",
+    "lemoncurry",
+    "matthewstyler",
+    "mirkoperillo",
+    "mraediaz",
+    "msomji",
+    "muzimuzhi",
+    "sjwarner-bp",
+    "SleeplessByte",
+    "Smarticles101",
+    "sshine",
+    "stkent",
+    "t0dd",
+    "Zaldrick",
+    "zwaltman"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/CustomSet.java"
+    ],
+    "test": [
+      "src/test/java/CustomSetTest.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/CustomSet.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "Create a custom set type."
+}

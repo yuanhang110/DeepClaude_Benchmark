@@ -1,0 +1,31 @@
+{
+    "testdir": "/benchmarks/2025-02-23-xyh-deepclaude-retry-xyh/java/exercises/practice/kindergarten-garden",
+    "testcase": "kindergarten-garden",
+    "model": "openai/deepseek-r1-250120",
+    "edit_format": "diff",
+    "tests_outcomes": [
+        false,
+        false
+    ],
+    "cost": 0.0,
+    "duration": 200.8796865940094,
+    "test_timeouts": 0,
+    "commit_hash": "5402ed1-dirty",
+    "num_error_outputs": 0,
+    "num_user_asks": 0,
+    "num_exhausted_context_windows": 0,
+    "num_malformed_responses": 0,
+    "syntax_errors": 0,
+    "indentation_errors": 0,
+    "lazy_comments": 0,
+    "chat_hashes": [
+        [
+            "a641429a83aa6356e505e1228b5944aead47bdd7",
+            "057097c2c550a2446f934da881b54622c16b184f"
+        ],
+        [
+            "1cc49daa1cbf6b8811b064a10dbfc5ff770bcd0a",
+            "b43467f782f9e2b1437d7aa2ee12e0128b1ef227"
+        ]
+    ]
+}
