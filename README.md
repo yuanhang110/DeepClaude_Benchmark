@@ -1,5 +1,3 @@
-# DeepClaude_Benchmark
-
 <div align="center">
 
 <h1>DeepClaude_Benchmark 🐬🧠</h1>
