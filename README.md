@@ -99,7 +99,7 @@ costs: $0.0000/test-case, $0.00 total, $0.00 projected
 
 于是我开始了修改deepclaude的官方原版代码，修改成openai的返回格式用于评测，官方项目链接为<a href="https://github.com/getasterisk/deepclaude">deepclaude官方</a>，结果测试完成，可以看到pass_rate_1从19.6提升到24.4，提升了24.5%， pass_rate_2从44.0提升到45.8，提提升了4%，percent_cases_well_formed从96.4提示到97.8，可以看到官方的deepclaude项目在各方面都有提升，但是提升不如前面链接：https://aider.chat/2025/01/24/r1-sonnet.html中提升的那么大。
 
-但好歹有提升，deepclaude python版本暂时只有成本下降，没有性能提升。
+但好歹有提升，deepclaude python版本暂时只有成本上升，没有性能提升。
 
 ```
 - dirname: 2025-02-24-deepclaude-rust
@@ -138,3 +138,5 @@ costs: $0.0001/test-case, $0.01 total, $0.01 projected
 从aider官网最新结果可以看到claude3.7的非推理和推理模型都有很大的提升，推理模型取得了新sota，但是它需要36美元，成本是最开始的r1加sonnet 3.5的13美元的2倍多接近3倍，那么我接下来准备开始测试deepclaude3.7版本，即字节火山r1加上claude3.7的非思考版本。
 
 未完待续。。。，前3次完整结果会更新到src的文件夹中，可以根据对应名字查看具体数据。
+
+评测需要耗费比较多的deepseek额度，有需要使用deepseek的，可以在火山填我的邀请码，参与入口：https://www.volcengine.com/experience/ark?utm_term=202502dsinvite&ac=DSASUQY5&rc=BWOJXKPS  邀请码：BWOJXKPS
