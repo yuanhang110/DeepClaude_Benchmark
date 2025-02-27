@@ -12,11 +12,6 @@ This project is designed to evaluate the effectiveness of DeepClaude and other c
 
 DeepClaude是一款高性能的大语言模型推理应用程序编程接口（API），它将DeepSeek R1的思维链（CoT）推理能力与Anthropic Claude的创意和代码生成能力相结合。它提供了一个统一的接口，以便在充分利用这两种模型优势的同时，还能让用户完全掌控自己的API密钥和数据。
 
-选择将R1和Claude结合的原因如下：
-DeepSeek R1的思维链推理展示了其深度推理能力，大语言模型甚至能达到“元认知”的程度，比如自我纠正、思考极端情况，以及使用自然语言进行准蒙特卡洛树搜索。
-
-然而，R1在代码生成、创造力和对话技巧方面存在不足。而Claude 3.5 Sonnet在这些领域表现出色，恰好能完美地弥补R1的不足。因此，DeepClaude将这两种模型结合起来。
-
 链接：https://aider.chat/2025/01/24/r1-sonnet.html
 
 在aider-benchmark项目中，原始评测的结果如图：
