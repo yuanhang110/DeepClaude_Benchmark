@@ -1,0 +1,23 @@
+{
+  "authors": [
+    "elyashiv"
+  ],
+  "contributors": [
+    "KevinWMatthews",
+    "patricksjackson"
+  ],
+  "files": {
+    "solution": [
+      "binary_search_tree.cpp",
+      "binary_search_tree.h"
+    ],
+    "test": [
+      "binary_search_tree_test.cpp"
+    ],
+    "example": [
+      ".meta/example.h"
+    ]
+  },
+  "blurb": "Insert and search for numbers in a binary tree.",
+  "source": "Josh Cheek"
+}

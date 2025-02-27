@@ -97,4 +97,44 @@ deepseek R1字节火山引擎版本加上claude 24年10月版本，结果准确�
 costs: $0.0000/test-case, $0.00 total, $0.00 projected
 ```
 
-于是我开始了修改deepclaude的官方原版代码，修改成openai的返回格式用于评测，官方项目链接为<a href="https://github.com/getasterisk/deepclaude">deepclaude官方</a>，结果正在测试中，未完待续。。。，前2次单独火山和python版本的deepclaude的完整结果会更新到src的文件夹中，可以根据对应名字查看具体数据。
+于是我开始了修改deepclaude的官方原版代码，修改成openai的返回格式用于评测，官方项目链接为<a href="https://github.com/getasterisk/deepclaude">deepclaude官方</a>，结果测试完成，可以看到pass_rate_1从19.6提升到24.4，提升了24.5%， pass_rate_2从44.0提升到45.8，提提升了4%，percent_cases_well_formed从96.4提示到97.8，可以看到官方的deepclaude项目在各方面都有提升，但是提升不如前面链接：https://aider.chat/2025/01/24/r1-sonnet.html中提升的那么大。
+
+但好歹有提升，deepclaude python版本暂时只有成本下降，没有性能提升。
+
+```
+- dirname: 2025-02-24-deepclaude-rust
+  test_cases: 225
+  model: openai/deepseek-r1-250120
+  edit_format: diff
+  commit_hash: 5402ed1-dirty
+  pass_rate_1: 24.4
+  pass_rate_2: 45.8
+  pass_num_1: 55
+  pass_num_2: 103
+  percent_cases_well_formed: 97.8
+  error_outputs: 64
+  num_malformed_responses: 5
+  num_with_malformed_responses: 5
+  user_asks: 51
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  total_tests: 231
+  command: aider --model openai/deepseek-r1-250120
+  date: 2025-02-24
+  versions: 0.74.3.dev
+  seconds_per_case: 588.1
+  total_cost: 0.0123
+
+costs: $0.0001/test-case, $0.01 total, $0.01 projected
+```
+
+接下来开始测试sonnet3.7加上deepseek r1的效果
+
+<img src="public/aider_new_sonnet3_7.png" width="600" style="zoom: 200%;" >
+
+从aider官网最新结果可以看到claude3.7的非推理和推理模型都有很大的提升，推理模型取得了新sota，但是它需要36美元，成本是最开始的r1加sonnet 3.5的13美元的2倍多接近3倍，那么我接下来准备开始测试deepclaude3.7版本，即字节火山r1加上claude3.7的非思考版本。
+
+未完待续。。。，前3次完整结果会更新到src的文件夹中，可以根据对应名字查看具体数据。

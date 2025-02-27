@@ -1,0 +1,39 @@
+{
+  "authors": [
+    "coriolinus"
+  ],
+  "contributors": [
+    "bantic",
+    "cwhakes",
+    "DarthStrom",
+    "efx",
+    "Emerentius",
+    "ErikSchierboom",
+    "lutostag",
+    "pedantic79",
+    "petertseng",
+    "rofrol",
+    "ssomers",
+    "stringparser",
+    "tjade273",
+    "xakon",
+    "ZapAnton"
+  ],
+  "files": {
+    "solution": [
+      "src/lib.rs",
+      "Cargo.toml"
+    ],
+    "test": [
+      "tests/macros.rs"
+    ],
+    "example": [
+      ".meta/example.rs"
+    ]
+  },
+  "blurb": "Implement a macro using macros-by-example",
+  "source": "Peter Goodspeed-Niklaus",
+  "custom": {
+    "allowed-to-not-compile": "Stub doesn't compile because there is no rule for the macro forms in the test file. Providing these rules would reduce student learning, so we do not."
+  }
+}

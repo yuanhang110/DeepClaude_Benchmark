@@ -1,0 +1,42 @@
+{
+  "authors": [
+    "javaeeeee"
+  ],
+  "contributors": [
+    "aadityakulkarni",
+    "FridaTveit",
+    "jmrunkle",
+    "jsertel",
+    "kytrinyx",
+    "lemoncurry",
+    "michaelspets",
+    "mirkoperillo",
+    "mraediaz",
+    "msomji",
+    "muzimuzhi",
+    "princerachit",
+    "redshirt4",
+    "SleeplessByte",
+    "Smarticles101",
+    "sshine",
+    "stkent",
+    "Zaldrick"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/PythagoreanTriplet.java"
+    ],
+    "test": [
+      "src/test/java/PythagoreanTripletTest.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/PythagoreanTriplet.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "Given an integer N, find all Pythagorean triplets for which a + b + c = N.",
+  "source": "A variation of Problem 9 from Project Euler",
+  "source_url": "https://projecteuler.net/problem=9"
+}

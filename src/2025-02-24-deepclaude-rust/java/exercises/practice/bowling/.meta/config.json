@@ -1,0 +1,39 @@
+{
+  "authors": [],
+  "contributors": [
+    "aadityakulkarni",
+    "antonmry",
+    "FridaTveit",
+    "Haozhe321",
+    "jmrunkle",
+    "kytrinyx",
+    "lemoncurry",
+    "mirkoperillo",
+    "msomji",
+    "muzimuzhi",
+    "sjwarner-bp",
+    "SleeplessByte",
+    "Smarticles101",
+    "sshine",
+    "stkent",
+    "TimoleonLatinopoulos"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/BowlingGame.java"
+    ],
+    "test": [
+      "src/test/java/BowlingGameTest.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/BowlingGame.java",
+      ".meta/src/reference/java/Frame.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "Score a bowling game.",
+  "source": "The Bowling Game Kata from UncleBob",
+  "source_url": "https://web.archive.org/web/20221001111000/http://butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata"
+}

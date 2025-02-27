@@ -1,0 +1,31 @@
+{
+  "authors": [
+    "LuLechuan"
+  ],
+  "contributors": [
+    "FridaTveit",
+    "jagdish-15",
+    "jmrunkle",
+    "lemoncurry",
+    "msomji",
+    "muzimuzhi",
+    "sjwarner-bp",
+    "SleeplessByte",
+    "sshine"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/Zipper.java"
+    ],
+    "test": [
+      "src/test/java/ZipperTest.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/Zipper.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "Creating a zipper for a binary tree."
+}

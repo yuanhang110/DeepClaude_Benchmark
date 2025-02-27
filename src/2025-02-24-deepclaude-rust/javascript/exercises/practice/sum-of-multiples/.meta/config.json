@@ -1,0 +1,35 @@
+{
+  "authors": [
+    "matthewmorgan"
+  ],
+  "contributors": [
+    "ankorGH",
+    "hayashi-ay",
+    "ovidiu141",
+    "rchavarria",
+    "ryanplusplus",
+    "SleeplessByte",
+    "smb26",
+    "xarxziux"
+  ],
+  "files": {
+    "solution": [
+      "sum-of-multiples.js"
+    ],
+    "test": [
+      "sum-of-multiples.spec.js"
+    ],
+    "example": [
+      ".meta/proof.ci.js"
+    ]
+  },
+  "blurb": "Given a number, find the sum of all the multiples of particular numbers up to but not including that number.",
+  "source": "A variation on Problem 1 at Project Euler",
+  "source_url": "https://projecteuler.net/problem=1",
+  "custom": {
+    "version.tests.compatibility": "jest-27",
+    "flag.tests.task-per-describe": false,
+    "flag.tests.may-run-long": false,
+    "flag.tests.includes-optional": false
+  }
+}

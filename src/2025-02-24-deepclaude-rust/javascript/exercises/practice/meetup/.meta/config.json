@@ -1,0 +1,32 @@
+{
+  "authors": [
+    "matthewmorgan"
+  ],
+  "contributors": [
+    "ovidiu141",
+    "rchavarria",
+    "rsuttles58",
+    "ryanplusplus",
+    "serixscorpio",
+    "SleeplessByte"
+  ],
+  "files": {
+    "solution": [
+      "meetup.js"
+    ],
+    "test": [
+      "meetup.spec.js"
+    ],
+    "example": [
+      ".meta/proof.ci.js"
+    ]
+  },
+  "blurb": "Calculate the date of meetups.",
+  "source": "Jeremy Hinegardner mentioned a Boulder meetup that happens on the Wednesteenth of every month",
+  "custom": {
+    "version.tests.compatibility": "jest-27",
+    "flag.tests.task-per-describe": false,
+    "flag.tests.may-run-long": false,
+    "flag.tests.includes-optional": false
+  }
+}

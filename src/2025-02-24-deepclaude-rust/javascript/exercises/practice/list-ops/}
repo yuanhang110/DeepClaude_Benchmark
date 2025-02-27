@@ -1,0 +1,13 @@
+  concat(...lists) {
+    let newElements = [...this.elements];
+    for (const list of lists) {
+      for (const el of list.elements) {
+        if (el instanceof List) {
+          newElements = [...newElements, ...el.elements];
+        } else {
+          newElements = [...newElements, el];
+        }
+      }
+    }
+    return new List(newElements);
+  }
