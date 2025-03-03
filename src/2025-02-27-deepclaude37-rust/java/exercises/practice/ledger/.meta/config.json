@@ -1,0 +1,24 @@
+{
+  "authors": [
+    "zankyr"
+  ],
+  "contributors": [
+    "andrerfcsantos"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/Ledger.java"
+    ],
+    "test": [
+      "src/test/java/LedgerTest.java",
+      "src/test/java/LocaleExtension.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/Ledger.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "Refactor a ledger printer."
+}

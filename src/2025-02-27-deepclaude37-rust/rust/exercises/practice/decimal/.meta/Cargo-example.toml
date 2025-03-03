@@ -1,0 +1,8 @@
+[package]
+edition = "2021"
+name = "decimal"
+version = "0.1.0"
+
+[dependencies]
+num-bigint = "0.4.4"
+num-traits = "0.2.16"

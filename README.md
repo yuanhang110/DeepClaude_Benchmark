@@ -12,6 +12,8 @@ This project is designed to evaluate the effectiveness of DeepClaude and other c
 
 DeepClaude是一款高性能的大语言模型推理应用程序编程接口（API），它将DeepSeek R1的思维链（CoT）推理能力与Anthropic Claude的创意和代码生成能力相结合。它提供了一个统一的接口，以便在充分利用这两种模型优势的同时，还能让用户完全掌控自己的API密钥和数据。
 
+评测需要耗费比较多的deepseek额度，有需要使用deepseek的，可以在火山填我的邀请码，参与入口：https://www.volcengine.com/experience/ark?utm_term=202502dsinvite&ac=DSASUQY5&rc=BWOJXKPS  邀请码：BWOJXKPS
+
 链接：https://aider.chat/2025/01/24/r1-sonnet.html
 
 在aider-benchmark项目中，原始评测的结果如图：
@@ -132,6 +134,38 @@ costs: $0.0001/test-case, $0.01 total, $0.01 projected
 
 从aider官网最新结果可以看到claude3.7的非推理和推理模型都有很大的提升，推理模型取得了新sota，但是它需要36美元，成本是最开始的r1加sonnet 3.5的13美元的2倍多接近3倍，那么我接下来准备开始测试deepclaude3.7版本，即字节火山r1加上claude3.7的非思考版本。
 
-未完待续。。。，前3次完整结果会更新到src的文件夹中，可以根据对应名字查看具体数据。
+它的结果如下，可以看到claude3.7加deepseek后pass_rate_2为50.7，比45.8的deepseekR1+claude3.5版本提升10.7%，比纯deepseek r1提升15.2%。成本方面deepclaude3.7低于claude3.7的非思考版本，成本约为75%。然后格式准确性，从96.4到99.1，提升了2.8%
 
-评测需要耗费比较多的deepseek额度，有需要使用deepseek的，可以在火山填我的邀请码，参与入口：https://www.volcengine.com/experience/ark?utm_term=202502dsinvite&ac=DSASUQY5&rc=BWOJXKPS  邀请码：BWOJXKPS
+```
+- dirname: 2025-02-27-deepclaude37-rust
+  test_cases: 225
+  model: openai/deepseek-r1-250120
+  edit_format: diff
+  commit_hash: 5402ed1-dirty
+  pass_rate_1: 25.3
+  pass_rate_2: 50.7
+  pass_num_1: 57
+  pass_num_2: 114
+  percent_cases_well_formed: 99.1
+  error_outputs: 76
+  num_malformed_responses: 2
+  num_with_malformed_responses: 2
+  user_asks: 2
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  total_tests: 231
+  command: aider --model openai/deepseek-r1-250120
+  date: 2025-02-27
+  versions: 0.74.3.dev
+  seconds_per_case: 691.9
+  total_cost: 2.9193
+
+costs: $0.0130/test-case, $2.92 total, $3.00 projected
+```
+
+所以现在代码方面最推荐deepseek r1加calude sonnet 3.7组合，接下来我将评测一下deepseekvr，即deepseekV3加deepseekR1的组合。
+
+未完待续。。。，前4次完整结果会更新到src的文件夹中，可以根据对应名字查看具体数据。

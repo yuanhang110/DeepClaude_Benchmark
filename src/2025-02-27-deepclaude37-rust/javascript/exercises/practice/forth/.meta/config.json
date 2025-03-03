@@ -1,0 +1,31 @@
+{
+  "authors": [
+    "matthewmorgan"
+  ],
+  "contributors": [
+    "brendanmckeown",
+    "slaymance",
+    "SleeplessByte",
+    "tejasbubane",
+    "tgujar",
+    "xarxziux"
+  ],
+  "files": {
+    "solution": [
+      "forth.js"
+    ],
+    "test": [
+      "forth.spec.js"
+    ],
+    "example": [
+      ".meta/proof.ci.js"
+    ]
+  },
+  "blurb": "Implement an evaluator for a very simple subset of Forth.",
+  "custom": {
+    "version.tests.compatibility": "jest-27",
+    "flag.tests.task-per-describe": false,
+    "flag.tests.may-run-long": false,
+    "flag.tests.includes-optional": false
+  }
+}

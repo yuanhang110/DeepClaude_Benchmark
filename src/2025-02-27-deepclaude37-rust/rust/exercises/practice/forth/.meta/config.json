@@ -1,0 +1,44 @@
+{
+  "authors": [
+    "EduardoBautista"
+  ],
+  "contributors": [
+    "ashleygwilliams",
+    "bobahop",
+    "coriolinus",
+    "cwhakes",
+    "EduardoBautista",
+    "efx",
+    "ErikSchierboom",
+    "gefjon",
+    "gsauthof",
+    "IanWhitney",
+    "kytrinyx",
+    "lutostag",
+    "N-Parsons",
+    "nfiles",
+    "PaulDance",
+    "petertseng",
+    "pminten",
+    "robkeim",
+    "rofrol",
+    "stevejb71",
+    "stringparser",
+    "xakon",
+    "ZapAnton"
+  ],
+  "files": {
+    "solution": [
+      "src/lib.rs",
+      "Cargo.toml"
+    ],
+    "test": [
+      "tests/forth.rs",
+      "tests/alloc-attack.rs"
+    ],
+    "example": [
+      ".meta/example.rs"
+    ]
+  },
+  "blurb": "Implement an evaluator for a very simple subset of Forth."
+}
