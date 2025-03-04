@@ -94,7 +94,7 @@ deepseek R1字节火山引擎版本加上claude 24年10月版本，结果准确�
 costs: $0.0000/test-case, $0.00 total, $0.00 projected
 ```
 
-于是我开始了修改deepclaude的官方原版代码，修改成openai的返回格式用于评测，官方项目链接为<a href="https://github.com/getasterisk/deepclaude">deepclaude官方</a>，结果测试完成，可以看到pass_rate_1从19.6提升到24.4，提升了24.5%， pass_rate_2从44.0提升到45.8，提升了4%，percent_cases_well_formed从96.4提升到97.8，可以看到官方的deepclaude项目在各方面都有提升，但是提升不如前面链：https://aider.chat/2025/01/24/r1-sonnet.html
+于是我开始了修改deepclaude的官方原版代码，修改成openai的返回格式用于评测，基于官方项目修改，支持openai格式的项目链接为<a href="https://github.com/yuanhang110/DeepClaude_Pro">deepclaude官方升级版</a>，结果测试完成，可以看到pass_rate_1从19.6提升到24.4，提升了24.5%， pass_rate_2从44.0提升到45.8，提升了4%，percent_cases_well_formed从96.4提升到97.8，可以看到官方的deepclaude项目在各方面都有提升，但是提升不如前面链：https://aider.chat/2025/01/24/r1-sonnet.html
 
 中提升的那么大。但好歹有提升，deepclaude python版本暂时只有成本上升，没有性能提升。
 
