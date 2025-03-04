@@ -6,7 +6,7 @@
 
 This project is designed to evaluate the effectiveness of DeepClaude and other combination models, mainly using aider benchmarks. In the future, if there is energy, other benchmarks will be introduced for evaluation, such as assessing the creative ability of DeepGemini and comparing it with other models.
 
-这个项目是用来评估deepclaude和其他组合模型的效果，主要进行aider-benchmark的评估，后续有精力会引入其他benchmark进行评估，比如评估deepgemini的创作能力和其他模型的对比。
+这个项目是用来评估deepclaude和其他组合模型的效果，主要基于deepclaude rust版本，升级支持openai格式后的<a href="https://github.com/yuanhang110/DeepClaude_Pro">deepclaude官方升级版</a>进行aider-benchmark的评估，后续有精力会引入其他benchmark进行评估，比如评估deepgemini的创作能力和其他模型的对比。
 
 </div>
 
