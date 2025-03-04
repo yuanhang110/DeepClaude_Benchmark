@@ -1,0 +1,7 @@
+[package]
+edition = "2021"
+name = "react"
+version = "2.0.0"
+
+[lints.clippy]
+new_without_default = "allow"

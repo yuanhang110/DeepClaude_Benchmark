@@ -1,0 +1,38 @@
+use variable_length_quantity as vlq;
+
+{% for test_group in cases %}
+{% for test in test_group.cases %}
+#[test]
+#[ignore]
+fn {{ test.description | make_ident }}() {
+{%- if test.property == "encode" %}
+    let input = &[{% for integer in test.input.integers -%}
+        {{ integer | fmt_num }},
+    {%- endfor %}];
+    let output = vlq::to_bytes(input);
+    let expected = vec![
+        {%- for byte in test.expected -%}
+            0x{{ byte | to_hex }},
+        {%- endfor -%}
+    ];
+{%- elif test.property == "decode" %}
+    let input = &[
+        {%- for byte in test.input.integers -%}
+            0x{{ byte | to_hex }},
+        {%- endfor -%}
+    ];
+    let output = vlq::from_bytes(input);
+    let expected = {% if test.expected is object -%}
+        Err(vlq::Error::IncompleteNumber)
+    {%- else -%}
+        Ok(vec![{% for integer in test.expected -%}
+            {{ integer | fmt_num }},
+        {%- endfor %}])
+    {%- endif %};
+{%- else %}
+    panic!("unknown property: {{ test.property }}");
+{%- endif %}
+    assert_eq!(output, expected);
+}
+{% endfor -%}
+{% endfor -%}

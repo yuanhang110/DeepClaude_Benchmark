@@ -1,0 +1,35 @@
+{
+  "authors": [
+    "miken500"
+  ],
+  "contributors": [
+    "AndrewKvalheim",
+    "chivalry",
+    "coriolinus",
+    "cwhakes",
+    "efx",
+    "ErikSchierboom",
+    "lutostag",
+    "petertseng",
+    "rofrol",
+    "rpottsoh",
+    "stringparser",
+    "xakon",
+    "ZapAnton"
+  ],
+  "files": {
+    "solution": [
+      "src/lib.rs",
+      "Cargo.toml"
+    ],
+    "test": [
+      "tests/simple-cipher.rs"
+    ],
+    "example": [
+      ".meta/example.rs"
+    ]
+  },
+  "blurb": "Implement a simple shift cipher like Caesar and a more secure substitution cipher.",
+  "source": "Substitution Cipher at Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Substitution_cipher"
+}

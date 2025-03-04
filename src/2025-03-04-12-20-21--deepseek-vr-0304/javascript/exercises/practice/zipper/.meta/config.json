@@ -1,0 +1,31 @@
+{
+  "authors": [
+    "matthewmorgan"
+  ],
+  "contributors": [
+    "felbit",
+    "ganderzz",
+    "hyuko21",
+    "joshgoebel",
+    "SleeplessByte",
+    "tejasbubane"
+  ],
+  "files": {
+    "solution": [
+      "zipper.js"
+    ],
+    "test": [
+      "zipper.spec.js"
+    ],
+    "example": [
+      ".meta/proof.ci.js"
+    ]
+  },
+  "blurb": "Creating a zipper for a binary tree.",
+  "custom": {
+    "version.tests.compatibility": "jest-27",
+    "flag.tests.task-per-describe": false,
+    "flag.tests.may-run-long": false,
+    "flag.tests.includes-optional": false
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "EduardoBautista"
+  ],
+  "contributors": [
+    "andrewclarkson",
+    "ashleygwilliams",
+    "AvasDream",
+    "ClashTheBunny",
+    "coriolinus",
+    "cwhakes",
+    "EduardoBautista",
+    "efx",
+    "ErikSchierboom",
+    "IanWhitney",
+    "ijanos",
+    "jonmcalder",
+    "kytrinyx",
+    "lutostag",
+    "mkantor",
+    "navossoc",
+    "nfiles",
+    "petertseng",
+    "pminten",
+    "rofrol",
+    "stringparser",
+    "xakon",
+    "yawpitch",
+    "ZapAnton"
+  ],
+  "files": {
+    "solution": [
+      "src/lib.rs",
+      "Cargo.toml"
+    ],
+    "test": [
+      "tests/word-count.rs"
+    ],
+    "example": [
+      ".meta/example.rs"
+    ]
+  },
+  "blurb": "Given a phrase, count the occurrences of each word in that phrase.",
+  "source": "This is a classic toy problem, but we were reminded of it by seeing it in the Go Tour."
+}

@@ -202,4 +202,36 @@ costs: $0.0130/test-case, $2.92 total, $3.00 projected
 
 接下来我将评测一下deepseekvr，即deepseekV3加deepseekR1的组合。
 
+deepseekVR结果如下，可以看到不如单个的deepseek v3也不如单个的deepseek r1
+
+```
+- dirname: 2025-03-04-12-20-21--deepseek-vr-0304
+  test_cases: 225
+  model: openai/deepseek-r1-250120
+  edit_format: diff
+  commit_hash: 5402ed1-dirty
+  pass_rate_1: 6.7
+  pass_rate_2: 21.8
+  pass_num_1: 15
+  pass_num_2: 49
+  percent_cases_well_formed: 93.3
+  error_outputs: 27
+  num_malformed_responses: 21
+  num_with_malformed_responses: 15
+  user_asks: 12
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  total_tests: 225
+  command: aider --model openai/deepseek-r1-250120
+  date: 2025-03-04
+  versions: 0.74.3.dev
+  seconds_per_case: 519.1
+  total_cost: 2.4461
+```
+
+代码部分测试完毕排名DeepClaude 3.7>DeepClaude3.5>DeepSeek R1>DeepSeek V3>>DeepSeek VR
+
 未完待续。。。，前5次完整结果会更新到src的文件夹中，可以根据对应名字查看具体数据。

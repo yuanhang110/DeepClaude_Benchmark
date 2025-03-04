@@ -1,0 +1,28 @@
+{
+  "authors": [
+    "jmrunkle"
+  ],
+  "contributors": [
+    "msomji",
+    "muzimuzhi"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/Satellite.java"
+    ],
+    "test": [
+      "src/test/java/SatelliteTest.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/Satellite.java"
+    ],
+    "editor": [
+      "src/main/java/Node.java",
+      "src/main/java/Tree.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "Rebuild binary trees from pre-order and in-order traversals."
+}

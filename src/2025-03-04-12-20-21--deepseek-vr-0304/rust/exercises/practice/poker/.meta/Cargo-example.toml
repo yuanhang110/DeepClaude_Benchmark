@@ -1,0 +1,7 @@
+[package]
+edition = "2021"
+name = "poker"
+version = "1.0.0"
+
+[dependencies]
+counter = "0.5.2"
