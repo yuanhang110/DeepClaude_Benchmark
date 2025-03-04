@@ -1,0 +1,34 @@
+{
+  "authors": [
+    "FridaTveit"
+  ],
+  "contributors": [
+    "jmrunkle",
+    "kytrinyx",
+    "lemoncurry",
+    "msomji",
+    "muzimuzhi",
+    "SleeplessByte",
+    "Smarticles101",
+    "sshine",
+    "stkent"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/BankAccount.java"
+    ],
+    "test": [
+      "src/test/java/BankAccountTest.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/BankAccount.java"
+    ],
+    "editor": [
+      "src/main/java/BankAccountActionInvalidException.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "Simulate a bank account supporting opening/closing, withdraws, and deposits of money. Watch out for concurrent transactions!"
+}

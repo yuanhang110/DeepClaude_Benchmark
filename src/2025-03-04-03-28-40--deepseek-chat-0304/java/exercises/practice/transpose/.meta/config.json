@@ -1,0 +1,36 @@
+{
+  "authors": [
+    "Smarticles101"
+  ],
+  "contributors": [
+    "FridaTveit",
+    "jmrunkle",
+    "kytrinyx",
+    "lemoncurry",
+    "mirkoperillo",
+    "msomji",
+    "muzimuzhi",
+    "sjwarner-bp",
+    "SleeplessByte",
+    "sshine",
+    "stkent",
+    "TimoleonLatinopoulos"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/Transpose.java"
+    ],
+    "test": [
+      "src/test/java/TransposeTest.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/Transpose.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "Take input text and output it transposed.",
+  "source": "Reddit r/dailyprogrammer challenge #270 [Easy].",
+  "source_url": "https://web.archive.org/web/20230630051421/https://old.reddit.com/r/dailyprogrammer/comments/4msu2x/challenge_270_easy_transpose_the_input_text/"
+}

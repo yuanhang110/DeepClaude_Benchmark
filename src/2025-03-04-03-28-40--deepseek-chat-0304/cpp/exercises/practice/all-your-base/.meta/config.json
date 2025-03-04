@@ -1,0 +1,25 @@
+{
+  "authors": [
+    "baskeboler"
+  ],
+  "contributors": [
+    "anupamsobti",
+    "elyashiv",
+    "KevinWMatthews",
+    "patricksjackson"
+  ],
+  "files": {
+    "solution": [
+      "all_your_base.cpp",
+      "all_your_base.h"
+    ],
+    "test": [
+      "all_your_base_test.cpp"
+    ],
+    "example": [
+      ".meta/example.cpp",
+      ".meta/example.h"
+    ]
+  },
+  "blurb": "Convert a number, represented as a sequence of digits in one base, to any other base."
+}

@@ -94,9 +94,9 @@ deepseek R1字节火山引擎版本加上claude 24年10月版本，结果准确�
 costs: $0.0000/test-case, $0.00 total, $0.00 projected
 ```
 
-于是我开始了修改deepclaude的官方原版代码，修改成openai的返回格式用于评测，官方项目链接为<a href="https://github.com/getasterisk/deepclaude">deepclaude官方</a>，结果测试完成，可以看到pass_rate_1从19.6提升到24.4，提升了24.5%， pass_rate_2从44.0提升到45.8，提提升了4%，percent_cases_well_formed从96.4提示到97.8，可以看到官方的deepclaude项目在各方面都有提升，但是提升不如前面链接：https://aider.chat/2025/01/24/r1-sonnet.html中提升的那么大。
+于是我开始了修改deepclaude的官方原版代码，修改成openai的返回格式用于评测，官方项目链接为<a href="https://github.com/getasterisk/deepclaude">deepclaude官方</a>，结果测试完成，可以看到pass_rate_1从19.6提升到24.4，提升了24.5%， pass_rate_2从44.0提升到45.8，提升了4%，percent_cases_well_formed从96.4提升到97.8，可以看到官方的deepclaude项目在各方面都有提升，但是提升不如前面链：https://aider.chat/2025/01/24/r1-sonnet.html
 
-但好歹有提升，deepclaude python版本暂时只有成本上升，没有性能提升。
+中提升的那么大。但好歹有提升，deepclaude python版本暂时只有成本上升，没有性能提升。
 
 ```
 - dirname: 2025-02-24-deepclaude-rust
@@ -166,6 +166,40 @@ costs: $0.0001/test-case, $0.01 total, $0.01 projected
 costs: $0.0130/test-case, $2.92 total, $3.00 projected
 ```
 
-所以现在代码方面最推荐deepseek r1加calude sonnet 3.7组合，接下来我将评测一下deepseekvr，即deepseekV3加deepseekR1的组合。
+所以现在代码方面最推荐deepseek r1加calude sonnet 3.7组合。
 
-未完待续。。。，前4次完整结果会更新到src的文件夹中，可以根据对应名字查看具体数据。
+字节火山的deepseekV3结果如下：
+
+可以看到pass_rate_2为38.7，比aider官网测的48.4低了接近10个点，percent_cases_well_formed接近100%，和官方的98.7%基本一致，亮点在于seconds_per_case为46.4，支持我以15并发跑这个测试，然后每个case平均不到1分钟，相比deepcalude3.7的691.9，时间不到1/10，同时价格很便宜。
+
+```
+- dirname: 2025-03-04-03-28-40--deepseek-chat-0304
+  test_cases: 225
+  model: openai/deepseek-v3-241226
+  edit_format: diff
+  commit_hash: 5402ed1-dirty
+  pass_rate_1: 19.1
+  pass_rate_2: 38.7
+  pass_num_1: 43
+  pass_num_2: 87
+  percent_cases_well_formed: 99.1
+  error_outputs: 6
+  num_malformed_responses: 5
+  num_with_malformed_responses: 2
+  user_asks: 8
+  lazy_comments: 1
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 6
+  total_tests: 225
+  command: aider --model openai/deepseek-v3-241226
+  date: 2025-03-04
+  versions: 0.74.3.dev
+  seconds_per_case: 46.4
+  total_cost: 0.0000
+```
+
+接下来我将评测一下deepseekvr，即deepseekV3加deepseekR1的组合。
+
+未完待续。。。，前5次完整结果会更新到src的文件夹中，可以根据对应名字查看具体数据。

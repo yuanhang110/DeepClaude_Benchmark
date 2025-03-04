@@ -1,0 +1,36 @@
+{
+  "authors": [
+    "jssander"
+  ],
+  "contributors": [
+    "aadityakulkarni",
+    "FridaTveit",
+    "hgvanpariya",
+    "jmrunkle",
+    "lemoncurry",
+    "mirkoperillo",
+    "msomji",
+    "muzimuzhi",
+    "SleeplessByte",
+    "sshine"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/Dominoes.java"
+    ],
+    "test": [
+      "src/test/java/DominoesTest.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/Dominoes.java"
+    ],
+    "editor": [
+      "src/main/java/ChainNotFoundException.java",
+      "src/main/java/Domino.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "Make a chain of dominoes."
+}

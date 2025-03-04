@@ -1,0 +1,30 @@
+{
+  "authors": [],
+  "contributors": [
+    "FridaTveit",
+    "jackattack24",
+    "jmrunkle",
+    "lemoncurry",
+    "msomji",
+    "muzimuzhi",
+    "SleeplessByte",
+    "sshine"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/Rational.java"
+    ],
+    "test": [
+      "src/test/java/RationalTest.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/Rational.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "Implement rational numbers.",
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Rational_number"
+}

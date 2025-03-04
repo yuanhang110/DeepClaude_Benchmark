@@ -1,0 +1,45 @@
+{
+  "authors": [
+    "stkent"
+  ],
+  "contributors": [
+    "aadityakulkarni",
+    "FridaTveit",
+    "jmrunkle",
+    "jtigger",
+    "kytrinyx",
+    "lemoncurry",
+    "michaelspets",
+    "morrme",
+    "msomji",
+    "muzimuzhi",
+    "NewtonCesarRoncari",
+    "princerachit",
+    "redshirt4",
+    "sjwarner-bp",
+    "SleeplessByte",
+    "Smarticles101",
+    "sshine",
+    "vivshaw",
+    "Zaldrick"
+  ],
+  "files": {
+    "solution": [
+      "src/main/java/QueenAttackCalculator.java",
+      "src/main/java/Queen.java"
+    ],
+    "test": [
+      "src/test/java/QueenAttackCalculatorTest.java"
+    ],
+    "example": [
+      ".meta/src/reference/java/Queen.java",
+      ".meta/src/reference/java/QueenAttackCalculator.java"
+    ],
+    "invalidator": [
+      "build.gradle"
+    ]
+  },
+  "blurb": "Given the position of two queens on a chess board, indicate whether or not they are positioned so that they can attack each other.",
+  "source": "J Dalbey's Programming Practice problems",
+  "source_url": "https://users.csc.calpoly.edu/~jdalbey/103/Projects/ProgrammingPractice.html"
+}

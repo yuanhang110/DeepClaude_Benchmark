@@ -1,0 +1,29 @@
+{
+  "authors": [
+    "coriolinus"
+  ],
+  "contributors": [
+    "cwhakes",
+    "efx",
+    "ErikSchierboom",
+    "petertseng",
+    "snoyberg"
+  ],
+  "files": {
+    "solution": [
+      "src/lib.rs",
+      "Cargo.toml"
+    ],
+    "test": [
+      "tests/xorcism.rs"
+    ],
+    "example": [
+      ".meta/example.rs"
+    ]
+  },
+  "blurb": "Implement zero-copy streaming adaptors",
+  "source": "Peter Goodspeed-Niklaus",
+  "custom": {
+    "allowed-to-not-compile": "The point of this exercise is for students to figure out the appropriate function signatures and generic bounds for their implementations, so we cannot provide those."
+  }
+}
