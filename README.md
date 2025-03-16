@@ -263,9 +263,13 @@ deepseekVR结果如下，可以看到不如单个的deepseek v3也不如单个�
 
 ## 3月16日更新
 
-测试deepclaude pro项目新增的full模式，会将r1的结果输给sonnet，而不是思维链输出给sonnet
+**都测试的是aider benchmark的python子集结果**
 
-测试的python子集的结果
+
+
+### Deepclaude3.7 pro full模式 第一版
+
+测试deepclaude pro项目新增的full模式，会将r1的结果输给sonnet，而不是思维链输出给sonnet
 
 格式正确性100%，然后pass_rate_1的比例偏低，但是pass_rate_2为50%，效果还可以
 
@@ -296,8 +300,10 @@ deepseekVR结果如下，可以看到不如单个的deepseek v3也不如单个�
   seconds_per_case: 563.2
   total_cost: 0.0000
 ```
-对比deepclaude3.5 的normal模式的python子集结果
-结论是比不过
+### deepclaude3.5 的normal模式
+
+结论是full模式第一版比不过
+
 ```
 ──────────── tmp.benchmarks/python-2025-02-24-xyh-deepclaude-rust ─────────────
 - dirname: python-2025-02-24-xyh-deepclaude-rust
@@ -326,9 +332,9 @@ deepseekVR结果如下，可以看到不如单个的deepseek v3也不如单个�
   seconds_per_case: 776.8
   total_cost: 0.0000
 ```
-对比deepclaude3.7 的normal模式的python子集结果
+### deepclaude3.7 的normal模式
 
-结论是pass_rate_1降了一半，pass_rate_2也低了23.5个点
+结论是deepclaude3.7 的full模式的pass_rate_1比normal模式低了一半，pass_rate_2也低了23.5个点
 
 ```
 ────────────── tmp.benchmarks/python-2025-02-27-deepclaude37-rust ──────────────
@@ -359,9 +365,9 @@ deepseekVR结果如下，可以看到不如单个的deepseek v3也不如单个�
   total_cost: 0.4457
 ```
 
-然后deepseek r1 的python子集结果
+### deepseek r1
 
-对比deepclaude pro full模式，r1的pass_rate_1比deepclaude pro 低了1倍，pass_rate_2接近，percent_cases_well_formed低了6个点，但是sonnet本身可能能答得更好，所以full模式还需要优化。
+对比deepclaude3.7 pro full模式，r1的pass_rate_1比deepclaude pro 低了1倍，pass_rate_2接近，percent_cases_well_formed低了6个点，但是sonnet本身可能能答得更好，所以full模式还需要优化。
 
 ```
 ────────── tmp.benchmarks/python-2025-02-23-deepclaude-retry ───────────
@@ -393,6 +399,41 @@ deepseekVR结果如下，可以看到不如单个的deepseek v3也不如单个�
 ```
 
 说明在prompt上不进行对应的优化直接将r1的输出送给sonnet，可能不如sonnet单一的结果，接下来会进行prompt实验，因为aider之前实现过，理论上r1结果加sonnet的代码编辑，上限会更高。
+
+### deepclaude3.5  full模式优化 第二版结果
+
+pass_rate_1: 23.5低于normal版本，pass_rate_2结果和normal一致
+
+```
+─ /benchmarks/2025-03-16-16-01-40--a-deepclaude35version-full-architect-pytho… ─
+- dirname: 2025-03-16-16-01-40--a-deepclaude35version-full-architect-python-0316-3
+  test_cases: 34
+  model: openai/deepseekr1
+  edit_format: diff
+  commit_hash: 5402ed1-dirty
+  pass_rate_1: 23.5
+  pass_rate_2: 55.9
+  pass_num_1: 8
+  pass_num_2: 19
+  percent_cases_well_formed: 100.0
+  error_outputs: 19
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 19
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  total_tests: 35
+  command: aider --model openai/deepseekr1
+  date: 2025-03-16
+  versions: 0.74.3.dev
+  seconds_per_case: 319.1
+  total_cost: 0.0000
+
+```
+### deepclaude3.7 full模式优化 第二版本
 
 对full模式进行了架构师模式优化后，测试结果如下，达到了73.5和26.5，和之前的deepclaude3.7 normal模式达到了持平，说明这个优化方式有效，应该是python剩下的题对于模型来说还过难了，这2种模式的其他语言测试应该可以去分个高下
 ```
