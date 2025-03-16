@@ -104,7 +104,7 @@ deepseek R1字节火山引擎版本加上claude 24年10月版本，结果准确�
 
 中提升的那么大。但好歹有提升，deepclaude python版本暂时只有成本上升，没有性能提升。
 <details close >
-<summary><strong>deepclaude python版本的结果：</strong></summary> 
+<summary><strong>deepclaude3.5 rust版本的结果：</strong></summary> 
 <hr>
 <pre><code>
 - dirname: 2025-02-24-deepclaude-rust
@@ -146,7 +146,7 @@ deepseek R1字节火山引擎版本加上claude 24年10月版本，结果准确�
 它的结果如下，可以看到claude3.7加deepseek后pass_rate_2为50.7，比45.8的deepseekR1+claude3.5版本提升10.7%，比纯deepseek r1提升15.2%。成本方面deepclaude3.7低于claude3.7的非思考版本，成本约为75%。然后格式准确性，从96.4到99.1，提升了2.8%
 
 <details close >
-<summary><strong>deepclaude python版本的结果：</strong></summary> 
+<summary><strong>deepclaude3.7 rust版本的结果：</strong></summary> 
 <hr>
 <pre><code>
 - dirname: 2025-02-27-deepclaude37-rust
@@ -186,7 +186,7 @@ deepseek R1字节火山引擎版本加上claude 24年10月版本，结果准确�
 可以看到pass_rate_2为38.7，比aider官网测的48.4低了接近10个点，percent_cases_well_formed接近100%，和官方的98.7%基本一致，亮点在于seconds_per_case为46.4，支持我以15并发跑这个测试，然后每个case平均不到1分钟，相比deepcalude3.7的691.9，时间不到1/10，同时价格很便宜。
 
 <details close >
-<summary><strong>deepclaude python版本的结果：</strong></summary> 
+<summary><strong>deepseekV3结果：</strong></summary> 
 <hr>
 <pre><code>
 - dirname: 2025-03-04-03-28-40--deepseek-chat-0304
@@ -225,7 +225,7 @@ deepseek R1字节火山引擎版本加上claude 24年10月版本，结果准确�
 deepseekVR结果如下，可以看到不如单个的deepseek v3也不如单个的deepseek r1
 
 <details close >
-<summary><strong>deepclaude python版本的结果：</strong></summary> 
+<summary><strong>deepseekVR的结果：</strong></summary> 
 <hr>
 <pre><code>
 - dirname: 2025-03-04-12-20-21--deepseek-vr-0304
