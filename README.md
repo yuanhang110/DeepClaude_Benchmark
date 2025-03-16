@@ -296,8 +296,37 @@ deepseekVR结果如下，可以看到不如单个的deepseek v3也不如单个�
   seconds_per_case: 563.2
   total_cost: 0.0000
 ```
-
-对比deepclaude pro的normal模式的python子集结果
+对比deepclaude3.5 的normal模式的python子集结果
+结论是比不过
+```
+──────────── tmp.benchmarks/python-2025-02-24-xyh-deepclaude-rust ─────────────
+- dirname: python-2025-02-24-xyh-deepclaude-rust
+  test_cases: 34
+  model: openai/deepseek-r1-250120
+  edit_format: diff
+  commit_hash: 5402ed1-dirty
+  pass_rate_1: 26.5
+  pass_rate_2: 55.9
+  pass_num_1: 9
+  pass_num_2: 19
+  percent_cases_well_formed: 97.1
+  error_outputs: 18
+  num_malformed_responses: 1
+  num_with_malformed_responses: 1
+  user_asks: 12
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 0
+  total_tests: 35
+  command: aider --model openai/deepseek-r1-250120
+  date: python-202
+  versions: 0.74.3.dev
+  seconds_per_case: 776.8
+  total_cost: 0.0000
+```
+对比deepclaude3.7 的normal模式的python子集结果
 
 结论是pass_rate_1降了一半，pass_rate_2也低了23.5个点
 
@@ -365,4 +394,36 @@ deepseekVR结果如下，可以看到不如单个的deepseek v3也不如单个�
 
 说明在prompt上不进行对应的优化直接将r1的输出送给sonnet，可能不如sonnet单一的结果，接下来会进行prompt实验，因为aider之前实现过，理论上r1结果加sonnet的代码编辑，上限会更高。
 
-未完待续。。。，前6次完整结果会更新到src的文件夹中，可以根据对应名字查看具体数据。
+对full模式进行了架构师模式优化后，测试结果如下，达到了73.5和26.5，和之前的deepclaude3.7 normal模式达到了持平，说明这个优化方式有效，应该是python剩下的题对于模型来说还过难了，这2种模式的其他语言测试应该可以去分个高下
+```
+
+── /benchmarks/2025-03-16-12-54-49--a-deepclaude-full-architect-python-0316-2 ──
+- dirname: 2025-03-16-12-54-49--a-deepclaude-full-architect-python-0316-2
+  test_cases: 34
+  model: openai/deepseekr1
+  edit_format: diff
+  commit_hash: 5402ed1-dirty
+  pass_rate_1: 26.5
+  pass_rate_2: 73.5
+  pass_num_1: 9
+  pass_num_2: 25
+  percent_cases_well_formed: 97.1
+  error_outputs: 12
+  num_malformed_responses: 1
+  num_with_malformed_responses: 1
+  user_asks: 11
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 0
+  test_timeouts: 1
+  total_tests: 35
+  command: aider --model openai/deepseekr1
+  date: 2025-03-16
+  versions: 0.74.3.dev
+  seconds_per_case: 336.2
+  total_cost: 0.0000
+```
+**代码部分最新排名：**
+DeepClaude 3.7 full模式=DeepClaude 3.7 normal模式>DeepClaude3.5 normal模式>DeepSeek R1>DeepSeek V3>>DeepSeek VR
+未完待续。。。，前7次完整结果会更新到src的文件夹中，可以根据对应名字查看具体数据。
