@@ -30,7 +30,7 @@ DeepClaude是一款高性能的大语言模型推理应用程序编程接口（A
 
 然后开始验证，首先是字节火山引擎的deepseek R1的结果，准确率44%，低于aider官方使用deepseek官方api的测试结果，不过以官方api现在总是不稳定的情况，应该分数会更低。官方的R1结果是56.9，percent_cases_well_formed的指标是96.4，和官方的96.9基本一致，符合误差，而准确率比官方低了12.9，跌出了一个deepseek v3
 
-<details open>
+<details close>
 <summary><strong>deepseek R1的结果：</strong></summary> 
 <hr>
 <pre><code>
